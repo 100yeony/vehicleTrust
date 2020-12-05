@@ -1,0 +1,78 @@
+{
+  "__Vehicle__": {
+    "vid": "8",
+    "user": "\ud669\uc778\ub355",
+    "social_activities": {
+      "info": {
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\uacbd\uba85\ub300\ub85c \uc784\ud559\uc0ac\uac70\ub9ac\uc0ac\uac70\ub9ac\uc5d0\uc11c \uacc4\uc0b0\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88. \uc774\ud6c4\ub85c \uacc4\uc0b0\uc0bc\uac70\ub9ac\ucabd\uc73c\ub85c \uc11c\ud589.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-07",
+            "8:26"
+          ],
+          "GPS": "37.54292484697895,126.73699257638357",
+          "vid": "8"
+        },
+        {
+          "contents": "\uc7a5\uc81c\ub85c \ud654\uc804\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc0bc\uc0b0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4. \ubc18\ub300\ubc29\ud5a5 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-09",
+            "17:14"
+          ],
+          "GPS": "37.517688435306994,126.73223415370103",
+          "vid": "8"
+        },
+        {
+          "contents": "\uc7a5\uc81c\ub85c \ud654\uc804\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc0bc\uc0b0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-10",
+            "17:26"
+          ],
+          "GPS": "37.517688435306994,126.73223415370103",
+          "vid": "8"
+        },
+        {
+          "contents": "\uc7a5\uc81c\ub85c \ud654\uc804\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc0bc\uc0b0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-12",
+            "17:06"
+          ],
+          "GPS": "37.517688435306994,126.73223415370103",
+          "vid": "8"
+        }
+      ],
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
+    },
+    "VTI": {
+      "DR": 0,
+      "AS": 0,
+      "NT": 0,
+      "UR": 0,
+      "VT": 0,
+      "connectivity": 0,
+      "CF": 0,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": []
+  }
+}

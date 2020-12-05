@@ -1,0 +1,118 @@
+{
+  "__Vehicle__": {
+    "vid": "12",
+    "user": "\uc774\uc2b9\uacb8",
+    "social_activities": {
+      "info": {
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\uacbd\uc6d0\ub300\ub85c \uc2ed\uc815\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\ubc29\ud5a5 \uc815\uccb4.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-01",
+            "14:34"
+          ],
+          "GPS": "37.473102215172304,126.69157423082534",
+          "vid": "12"
+        },
+        {
+          "contents": "\ubbf8\ucd94\ud640\ub300\ub85c \uc2e0\uae30\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc8fc\uc548\uc5ed\uc0bc\uac70\ub9ac\ubc29\ud5a5 \uc815\uccb4.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-04",
+            "14:23"
+          ],
+          "GPS": "37.451489471141116,126.67979065160806",
+          "vid": "12"
+        },
+        {
+          "contents": "\ud638\uad6c\ud3ec\ub85c \uac04\uc11d\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
+          "score": 0,
+          "createdTime": [
+            "2020-04-29",
+            "8:58"
+          ],
+          "GPS": "37.46072606118972,126.72021037191762",
+          "vid": "12"
+        },
+        {
+          "contents": "\"\uacbd\uc6d0\ub300\ub85c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2b9\ud559\uc0ac\uac70\ub9ac\uad6c\uac04 \uc591\ubc29\ud5a5, \uc815\uccb4.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-05-11",
+            "7:38"
+          ],
+          "GPS": "37.457793061526665,126.68946137159139",
+          "vid": "12"
+        },
+        {
+          "contents": "\uacbd\uc6d0\ub300\ub85c \ubd80\ud3c9\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2e0\ucd0c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-11",
+            "11:58"
+          ],
+          "GPS": "37.49133789273405,126.72312949674827",
+          "vid": "12"
+        },
+        {
+          "contents": "\uacbd\uc6d0\ub300\ub85c \uc2ed\uc815\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\uc554\uc0ac\uac70\ub9ac\uad6c\uac04 \ubc00\ub824 \uc9c0\ub0a8.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-02",
+            "12:53"
+          ],
+          "GPS": "37.47326408476345,126.69145486433652",
+          "vid": "12"
+        },
+        {
+          "contents": "\uacbd\uc6d0\ub300\ub85c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2b9\ud559\uc0ac\uac70\ub9ac\ubc29\ud5a5 \uc815\uccb4.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-07",
+            "7:39"
+          ],
+          "GPS": "37.457793061526665,126.68946137159139",
+          "vid": "12"
+        },
+        {
+          "contents": "\"\uacbd\uc6d0\ub300\ub85c \uc2b9\uae30\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uc591\ubc29\ud5a5, \ubc00\ub9bc.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-05-08",
+            "7:34"
+          ],
+          "GPS": "37.45047402455224,126.69009625829821",
+          "vid": "12"
+        }
+      ],
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
+    },
+    "VTI": {
+      "DR": 0,
+      "AS": 0,
+      "NT": 0,
+      "UR": 0,
+      "VT": 0,
+      "connectivity": 0,
+      "CF": 0,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": []
+  }
+}

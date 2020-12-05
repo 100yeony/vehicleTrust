@@ -1,0 +1,78 @@
+{
+  "__Vehicle__": {
+    "vid": "14",
+    "user": "\uc591\uc21c\uc131",
+    "social_activities": {
+      "info": {
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\uc218\ubcc0\ub85c \ubd80\uac1c\uace0\uac00\uad50\uc5d0\uc11c \ubd80\uac1c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-02",
+            "16:09"
+          ],
+          "GPS": "37.48996450798143,126.74027660945588",
+          "vid": "14"
+        },
+        {
+          "contents": "\uc218\ubcc0\ub85c \ubd80\uac1c\uace0\uac00\uad50\uc5d0\uc11c \ubd80\uac1c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-06",
+            "9:50"
+          ],
+          "GPS": "37.48996450798143,126.74027660945588",
+          "vid": "14"
+        },
+        {
+          "contents": "\"\uc218\ubcc0\ub85c \ubd80\ud3c9\ubb38\ud654\ub85c\uad50\ucc28\uc810\uc5d0\uc11c \ubd80\uac1c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \uc138\ubc88. \ubc18\ub300\ubc29\ud5a5, \uc18c\ud1b5 \uc6d0\ud65c.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-05-08",
+            "11:37"
+          ],
+          "GPS": "37.493380557342675,126.74084148538697",
+          "vid": "14"
+        },
+        {
+          "contents": "\uc218\ubcc0\ub85c \ubd80\uac1c\uace0\uac00\uad50\uc5d0\uc11c \ubd80\uac1c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88. \ubc18\ub300\ubc29\ud5a5 \uc18c\ud1b5 \uc6d0\ud65c.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-08",
+            "7:53"
+          ],
+          "GPS": "37.48996450798143,126.74027660945588",
+          "vid": "14"
+        }
+      ],
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
+    },
+    "VTI": {
+      "DR": 0,
+      "AS": 0,
+      "NT": 0,
+      "UR": 0,
+      "VT": 0,
+      "connectivity": 0,
+      "CF": 0,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "__Vehicle__": {
+    "vid": "44",
+    "user": "\uc815\uc885\ucca0",
+    "social_activities": {
+      "info": {
+        "response": 10,
+        "received_data": 9,
+        "not_used_data": 3,
+        "redistributed_data": 10
+      },
+      "scoring": 1.11,
+      "ignoring": 0.33,
+      "sharing": 1.11
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"\uc778\uc8fc\ub300\ub85c \ub3c5\uc815\uc774\uc0bc\uac70\ub9ac\uc5d0\uc11c \uc6a9\uc77c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4, \uc11c\ud589. \ubc18\ub300\ubc29\ud5a5, \uc18c\ud1b5 \uc6d0\ud65c.\"",
+          "score": 1.23,
+          "createdTime": [
+            "2020-04-29",
+            "10:14"
+          ],
+          "GPS": "37.45599578686525,126.65541502038545",
+          "vid": "44"
+        },
+        {
+          "contents": "\ubb34\ub124\ubbf8\ub85c \uc7a5\uc218\uace0\uac00\uad50\uc5d0\uc11c \uc7a5\uc218\ub098\ub4e4\ubaa9\uad6c\uac04 \uc815\uccb4.",
+          "score": 1.23,
+          "createdTime": [
+            "2020-05-06",
+            "8:39"
+          ],
+          "GPS": "37.4466131240147,126.74470676006516",
+          "vid": "44"
+        },
+        {
+          "contents": "\ubb34\ub124\ubbf8\ub85c \uc7a5\uc218\ub098\ub4e4\ubaa9\uc5d0\uc11c \uad6c\uc0b0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
+          "score": 1.23,
+          "createdTime": [
+            "2020-05-06",
+            "8:41"
+          ],
+          "GPS": "37.46700402563248,126.75476861272384",
+          "vid": "44"
+        },
+        {
+          "contents": "\uacbd\uc6d0\ub300\ub85c \uc2b9\uae30\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\ubc29\ud5a5 \uc815\uccb4. \ubc18\ub300\ubc29\ud5a5 \uc18c\ud1b5 \uc6d0\ud65c.",
+          "score": 1.23,
+          "createdTime": [
+            "2020-04-29",
+            "11:15"
+          ],
+          "GPS": "37.450851985278724,126.68991952553884",
+          "vid": "44"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\ud638\uad6c\ud3ec\ub85c \uc120\uc218\ucd0c\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc815\uccb4.",
+          "score": 0.89,
+          "createdTime": [
+            "2020-05-08",
+            "17:40"
+          ],
+          "GPS": "37.43921776949457,126.71782711728142",
+          "vid": "21"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 3.03,
+      "AS": 2.22,
+      "NT": 2982.88,
+      "UR": 5.25,
+      "VT": 225.14,
+      "connectivity": 335.91,
+      "CF": 4,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "21",
+        "VT": 0,
+        "position": 335.91,
+        "updateTime": 0
+      }
+    ]
+  }
+}
