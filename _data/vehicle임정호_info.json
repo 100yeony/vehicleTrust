@@ -1,0 +1,72 @@
+{
+  "__Vehicle__": {
+    "vid": "81",
+    "user": "\uc784\uc815\ud638",
+    "social_activities": {
+      "info": {
+        "response": 9,
+        "received_data": 9,
+        "not_used_data": 2,
+        "redistributed_data": 9
+      },
+      "scoring": 1.0,
+      "ignoring": 0.22,
+      "sharing": 1.0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"<\ucd5c\ucd08> \ucc38\uc678\uc804\ub85c \ubc30\ub2e4\ub9ac\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\uc778\ucc9c\uc5ed\uc0bc\uac70\ub9ac\ubc29\ud5a5 2,3\ucc28\ub85c \ub9c9\uace0 \uac00\ub85c\uc218 \uac00\uc9c0\uce58\ub294 \uc791\uc5c5 \uc911. \ud604\uc7ac 1\ucc28\ub85c\ub9cc \uc18c\ud1b5\ub418\uace0 \uc788\uc74c.\"",
+          "score": 1.0,
+          "createdTime": [
+            "2020-02-26",
+            "15:14"
+          ],
+          "GPS": "37.47275696002583,126.63521554436318",
+          "vid": "81"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \ubc31\ubc94\ub85c \uac04\uc11d\uc2dc\uc7a5\uc0ac\uac70\ub9ac\uc5d0\uc11c \uac04\uc11d\uc624\uac70\ub9ac\ubc29\ud5a5, \uac04\uc11d\uc2dc\uc7a5\uc0ac\uac70\ub9ac \ubd80\uadfc 1\ucc28\ub85c\uc5d0 \uace0\uc7a5\ub09c \uc2b9\uc6a9\ucc28\uac00 \uc138\uc6cc\uc838 \uc788\uc74c.\"",
+          "score": 1.0,
+          "createdTime": [
+            "2020-05-14",
+            "19:56"
+          ],
+          "GPS": "37.46389265477423,126.71437162574234",
+          "vid": "81"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\ubd80\uace0\uc18d\ub3c4\ub85c \uc11c\uc6b8\ubc29\ud5a5, \uc11c\uc6b8\uc694\uae08\uc18c 3.7Km \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 \uac13\uae38\uc5d0\uc11c \uc0ac\uace0\ucc98\ub9ac \uc911. \uc774 \uc5ec\ud30c\ub85c \ucc28\ub7c9\ub4e4 \uc815\uccb4.\"",
+          "score": 0.8,
+          "createdTime": [
+            "2020-01-18",
+            "17:02"
+          ],
+          "GPS": "37.36627889194582,127.10341724803654",
+          "vid": "6"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 4.55,
+      "AS": 2.0,
+      "NT": 5.726874290805559e+19,
+      "UR": 6.55,
+      "VT": 19367763678.89,
+      "connectivity": 4.772395242337966e+18,
+      "CF": 6,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "6",
+        "VT": 0,
+        "position": 4.772395242337966e+18,
+        "updateTime": 0
+      }
+    ]
+  }
+}

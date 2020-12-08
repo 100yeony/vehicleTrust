@@ -1,0 +1,62 @@
+{
+  "__Vehicle__": {
+    "vid": "5",
+    "user": "\uae40\ub0a8\uc218",
+    "social_activities": {
+      "info": {
+        "response": 3,
+        "received_data": 10,
+        "not_used_data": 8,
+        "redistributed_data": 3
+      },
+      "scoring": 0.3,
+      "ignoring": 0.8,
+      "sharing": 0.3
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\uacbd\uc6d0\ub300\ub85c \uc2b9\uae30\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4.",
+          "score": 0.09,
+          "createdTime": [
+            "2020-05-12",
+            "16:39"
+          ],
+          "GPS": "37.450851985278724,126.68991952553884",
+          "vid": "5"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "<\uae34\uae09> \ubd80\ucc9c \uc870\ub9c8\ub8e8\ub85c \uc2e0\ud765\uace0\uac00\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc911\uc559\uacf5\uc6d0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud765\uace0\uac00\uc0ac\uac70\ub9ac \ub0b4\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uc640 \ud654\ubb3c\ucc28\uac04 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758\uc694\ub9dd.",
+          "score": 0.9,
+          "createdTime": [
+            "2020-02-15",
+            "18:04"
+          ],
+          "GPS": "37.49797839981311,126.77753624040638",
+          "vid": "90"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 1.25,
+      "AS": 0.6,
+      "NT": 68363.16,
+      "UR": 1.85,
+      "VT": 181.32,
+      "connectivity": 11393.86,
+      "CF": 10,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "90",
+        "VT": 0,
+        "position": 11393.86,
+        "updateTime": 0
+      }
+    ]
+  }
+}

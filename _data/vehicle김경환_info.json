@@ -1,0 +1,82 @@
+{
+  "__Vehicle__": {
+    "vid": "1",
+    "user": "\uae40\uacbd\ud658",
+    "social_activities": {
+      "info": {
+        "response": 9,
+        "received_data": 10,
+        "not_used_data": 3,
+        "redistributed_data": 10
+      },
+      "scoring": 0.9,
+      "ignoring": 0.3,
+      "sharing": 1.0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uc778\ub85c \ub3d9\uc218\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\uc18c\uc815\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3d9\uc18c\uc815\uc0ac\uac70\ub9ac 200m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 2,3\ucc28\ub85c\uc5d0 \uac78\uccd0 \uc2b9\uc6a9\ucc28\uc640 \ud0dd\uc2dc\uac04\uc758 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098 \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c.\"",
+          "score": 0.9,
+          "createdTime": [
+            "2020-01-22",
+            "11:25"
+          ],
+          "GPS": "37.48556332697589,126.71873269579066",
+          "vid": "1"
+        },
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uc6d0\ub300\ub85c \ubd80\ud3c9\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uad74\ub2e4\ub9ac\uc624\uac70\ub9ac\ubc29\ud5a5, \ubd80\ud3c9\uc5ed\uc0ac\uac70\ub9ac \uc57d 50m \uc9c0\ub09c \uc9c0\uc810 2\ucc28\ub85c\uc5d0\uc11c 1\ud1a4\ud654\ubb3c\ucc28\uc640 \uc2b9\uc6a9\ucc28\uac04 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758\uc694\ub9dd.\"",
+          "score": 0.9,
+          "createdTime": [
+            "2020-01-30",
+            "10:10"
+          ],
+          "GPS": "37.49130411197502,126.72313244834255",
+          "vid": "1"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\ub0b4\uc6a9",
+          "score": 0.99,
+          "createdTime": [
+            "\uc811\uc218\uc77c",
+            "\uc2dc\uac04"
+          ],
+          "GPS": "PS(\ud3ec\uc778\ud2b8 \uc9d1",
+          "vid": "97"
+        },
+        {
+          "contents": "\ub0b4\uc6a9",
+          "score": 0.99,
+          "createdTime": [
+            "\uc811\uc218\uc77c",
+            "\uc2dc\uac04"
+          ],
+          "GPS": "PS(\ud3ec\uc778\ud2b8 \uc9d1",
+          "vid": "97"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 3.33,
+      "AS": 1.9,
+      "NT": Infinity,
+      "UR": 5.23,
+      "VT": Infinity,
+      "connectivity": Infinity,
+      "CF": 1,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "97",
+        "VT": 0,
+        "position": Infinity,
+        "updateTime": 0
+      }
+    ]
+  }
+}

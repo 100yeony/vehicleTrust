@@ -1,0 +1,62 @@
+{
+  "__Vehicle__": {
+    "vid": "109",
+    "user": "\ud55c\uc0c1\uc6b4",
+    "social_activities": {
+      "info": {
+        "response": 8,
+        "received_data": 10,
+        "not_used_data": 3,
+        "redistributed_data": 10
+      },
+      "scoring": 0.8,
+      "ignoring": 0.3,
+      "sharing": 1.0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\ub9cc\uc6d4\ub85c \ubd80\ud3c9\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc778\ucc9c\uac00\uc871\uacf5\uc6d0\ubd80\uadfc\uae4c\uc9c0 \ubc29\ubb38\ucc28\ub7c9\ub4e4 \ub9ce\uc544 \ubc00\ub9bc.",
+          "score": 0.8,
+          "createdTime": [
+            "2020-05-08",
+            "11:29"
+          ],
+          "GPS": "37.479255113412606,126.71078292724366",
+          "vid": "109"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\"<\uae34\uae09> \uc81c2\uacbd\uc778\uace0\uc18d\ub3c4\ub85c \uc778\ucc9c\ubc29\ud5a5, \ub0a8\uc778\ucc9c\uc694\uae08\uc18c \ubd80\uadfc 1,2\ucc28\ub85c\uc5d0\uc11c \uc0ac\uace0\ucc98\ub9ac \uc911. \uc774 \uc5ec\ud30c\ub85c 1Km\uad6c\uac04 \uc815\uccb4.\"",
+          "score": 0.79,
+          "createdTime": [
+            "2020-05-25",
+            "10:54"
+          ],
+          "GPS": "37.47919412307878,126.7107125011288",
+          "vid": "44"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 3.33,
+      "AS": 1.8,
+      "NT": 3.64,
+      "UR": 5.13,
+      "VT": 104.32,
+      "connectivity": 1.01,
+      "CF": 2,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "43",
+        "VT": 0,
+        "position": 1.01,
+        "updateTime": 0
+      }
+    ]
+  }
+}

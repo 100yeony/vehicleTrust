@@ -1,0 +1,532 @@
+{
+  "__Vehicle__": {
+    "vid": "82",
+    "user": "\uc784\uc885\ucca0",
+    "social_activities": {
+      "info": {
+        "response": 10,
+        "received_data": 10,
+        "not_used_data": 3,
+        "redistributed_data": 10
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"\uacbd\uc6d0\ub300\ub85c \uc2ed\uc815\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\uc554\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc815\uccb4. \uad50\ud1b5\uacbd\ucc30\uad00\uc758 \uc218\uc2e0\ud638\uac00 \uc694\uad6c\ub428.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-21",
+            "18:31"
+          ],
+          "GPS": "37.47323956559534,126.69155388288092",
+          "vid": "82"
+        },
+        {
+          "contents": "\uac74\uc9c0\ub85c \uac74\uc9c0\uc0bc\uac70\ub9ac\uc5d0\uc11c \uac74\uc9c0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
+          "score": 1,
+          "createdTime": [
+            "2020-02-24",
+            "19:24"
+          ],
+          "GPS": "37.498625398811825,126.67805432880009",
+          "vid": "82"
+        },
+        {
+          "contents": "\uc11c\uacf6\ub85c \uc11c\uc778\ucc9c\ub098\ub4e4\ubaa9\uc5d0\uc11c \uc11c\ub2ec\ub85c\uad50\ucc28\uc810\uad6c\uac04 \uc2e0\ud638 \ud55c\ubc88 \ubd80\uc871.",
+          "score": 1,
+          "createdTime": [
+            "2020-02-25",
+            "18:23"
+          ],
+          "GPS": "37.5236305135147,126.69073284351707",
+          "vid": "82"
+        },
+        {
+          "contents": "\uc11c\ub2ec\ub85c \uc11d\ub0a8\uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \uac74\uc9c0\uc0bc\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 1,
+          "createdTime": [
+            "2020-02-25",
+            "18:27"
+          ],
+          "GPS": "37.50590971803728,126.678777979445",
+          "vid": "82"
+        },
+        {
+          "contents": "\uac74\uc9c0\ub85c \uc11d\ub0a8\uc0ac\uac70\ub9ac\uc5d0\uc11c \uac74\uc9c0\uc0bc\uac70\ub9ac \uc9c0\ub098 \uac74\uc9c0\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc2dc\uc18d 5Km \ubbf8\ub9cc\uc73c\ub85c \uc815\uccb4 \uc2ec\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-02-25",
+            "18:30"
+          ],
+          "GPS": "37.49897767541566,126.6718273437982",
+          "vid": "82"
+        },
+        {
+          "contents": "\"\uac74\uc9c0\ub85c \uc11d\ub0a8\uc0ac\uac70\ub9ac\uc5d0\uc11c \uac74\uc9c0\uc0bc\uac70\ub9ac\ubc29\ud5a5, \ubc00\ub9bc.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-27",
+            "18:32"
+          ],
+          "GPS": "37.49897767541566,126.6718273437982",
+          "vid": "82"
+        },
+        {
+          "contents": "\uc11c\uacf6\ub85c \uc11c\uc778\ucc9c\ub098\ub4e4\ubaa9\uc5d0\uc11c \uc11c\ub2ec\ub85c\uad50\ucc28\uc810\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 1,
+          "createdTime": [
+            "2020-02-28",
+            "18:34"
+          ],
+          "GPS": "37.5236305135147,126.69073284351707",
+          "vid": "82"
+        },
+        {
+          "contents": "\"\uc11c\ub2ec\ub85c \uc11c\uacf6\ub85c\uad50\ucc28\uc810\uc5d0\uc11c \uc11d\ub0a8\uc9c0\ud558\ucc28\ub3c4\uad6c\uac04 \uc591\ubc29\ud5a5, \uc11c\ud589.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-28",
+            "18:36"
+          ],
+          "GPS": "37.50590971803728,126.678777979445",
+          "vid": "82"
+        },
+        {
+          "contents": "\uc11c\ub2ec\ub85c \uc11d\ub0a8\uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \uac74\uc9c0\uc0bc\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 1,
+          "createdTime": [
+            "2020-02-28",
+            "18:37"
+          ],
+          "GPS": "37.50590971803728,126.678777979445",
+          "vid": "82"
+        },
+        {
+          "contents": "\uac74\uc9c0\ub85c \uc11d\ub0a8\uc0ac\uac70\ub9ac\uc5d0\uc11c \uac74\uc9c0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
+          "score": 1,
+          "createdTime": [
+            "2020-02-28",
+            "18:37"
+          ],
+          "GPS": "37.49897767541566,126.6718273437982",
+          "vid": "82"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 5\uc6d4 9\uc77c\uae4c\uc9c0 \uc5f0\uc218\uad6c \uc575\uace0\uac1c\ub85c \uc678 2\uac1c\uc18c\uc5d0\uc11c \uc7ac\ub09c\ub300\ube44 \ub3c4\ub85c \uc720\uc9c0 \ubcf4\uc218\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "17:50"
+          ],
+          "GPS": "37.408812589080455,126.64720221408452",
+          "vid": "82"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 20\uc77c\uae4c\uc9c0 \uc11c\uad6c \uac00\uc815\ub3d9 511-11 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "17:59"
+          ],
+          "GPS": "37.517215660219705,126.67653508956427",
+          "vid": "82"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 20\uc77c\uae4c\uc9c0 \uc11c\uad6c \uac00\uc815\ub3d9 511-11 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "18:00"
+          ],
+          "GPS": "37.517215660219705,126.67653508956427",
+          "vid": "82"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 20\uc77c\uae4c\uc9c0 \uc11c\uad6c \uac00\uc815\ub3d9 511-11 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "18:01"
+          ],
+          "GPS": "37.517215660219705,126.67653508956427",
+          "vid": "82"
+        },
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 20\uc77c\uae4c\uc9c0, \uc11c\uad6c \uac00\uc815\ub3d9 511-11\ubc88\uc9c0 \uc77c\uc6d0, \uac00\uc815\uc911\uc559\uc2dc\uc7a5\uc5ed \ubd80\uadfc\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "18:02"
+          ],
+          "GPS": "37.517215660219705,126.67653508956427",
+          "vid": "82"
+        },
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 20\uc77c\uae4c\uc9c0, \uc11c\uad6c \uac00\uc815\ub3d9 511-11\ubc88\uc9c0 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "18:08"
+          ],
+          "GPS": "37.517215660219705,126.67653508956427",
+          "vid": "82"
+        },
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 20\uc77c\uae4c\uc9c0, \uc11c\uad6c \uac00\uc815\ub3d9 511-11\ubc88\uc9c0 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "18:13"
+          ],
+          "GPS": "37.517215660219705,126.67653508956427",
+          "vid": "82"
+        },
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 24\uc77c\uae4c\uc9c0, \uc11c\uad6c \uc2e0\ud604\ub3d9 112-56 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "18:42"
+          ],
+          "GPS": "37.51897880244078,126.6642259213853",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc5f0\uc218\uc0ac\uac70\ub9ac\uad6c\uac04, \uccad\ub2a5\ub300\ub85c \uc0ac\ub9ac\uace8\uc0ac\uac70\ub9ac\ucabd \uc6b0\ud68c\uc804 \ud558\ub294 \uc9c0\uc810 \ud6a1\ub2e8\ubcf4\ub3c4\uc5d0\uc11c \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "17:30"
+          ],
+          "GPS": "37.40734339950296,126.68278825614189",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc5f0\uc218\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3d9\ucd98\uc5ed2\ubc88\ucd9c\uad6c \uc55e\uc5d0 \uc791\uc5c5\ucc28\ub7c9 \uc138\uc6cc\ub450\uace0 \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "17:32"
+          ],
+          "GPS": "37.39811800885166,126.67323888614116",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \ubb38\ud559\uacbd\uae30\uc7a5 \uc815\ubb38\ubc29\ud5a5\uc73c\ub85c, \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac \uc870\uae08 \uc9c0\ub09c \uc9c0\uc810 \ud558\uc704\ucc28\ub85c\uc5d0 \uc791\uc5c5\ucc28\ub7c9 \uc138\uc6cc\ub450\uace0 \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "17:34"
+          ],
+          "GPS": "37.418088698311195,126.69416096851818",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \uc1a1\ub3c4\uad6d\uc81c\uad50\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc1a1\ub3c4\uad6d\uc81c\uad50 \uc2dc\uc791\uc9c0\uc810 3\ucc28\ub85c \ub9c9\uace0 \uc791\uc5c5 \uc911\uc774\uace0, \uc1a1\ub3c4\uad6d\uc81c\uad50 \uc606\uae38 1\ucc28\ub85c\uc5d0\uc11c\ub3c4 \uc791\uc5c5\ucc28\ub7c9 \uc138\uc6cc\ub450\uace0 \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "17:44"
+          ],
+          "GPS": "37.389159018100884,126.66338294732897",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \uc1a1\ub3c4\uad6d\uc81c\uad50\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc678\uc554\ub3c4\uc0ac\uac70\ub9ac \uc9c0\ub098\uc790\ub9c8\uc790 1\ucc28\ub85c \ub9c9\uace0 \uc791\uc5c5 \uc911. \uc774\ud6c4\ub85c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac 100m \ub3c4 \ubabb \uac04 \uc9c0\uc810 \ud558\uc704\ucc28\ub85c \ub9c9\uace0 \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "17:45"
+          ],
+          "GPS": "37.392948049751126,126.6674511782083",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \uc2b9\ud559\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc2b9\uae30\uc0ac\uac70\ub9ac \uc9c0\ub098\uae30\uc804 \ud558\uc704\ucc28\ub85c\uc5d0 \ub300\ud615\uc791\uc5c5\ucc28\ub7c9 \uc138\uc6cc\ub450\uace0 \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "17:51"
+          ],
+          "GPS": "37.4510161806055,126.6898284354412",
+          "vid": "82"
+        },
+        {
+          "contents": "<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc5f0\uc218\uc0ac\uac70\ub9ac\uad6c\uac04 \ud558\uc704\ucc28\ub85c\uc5d0\uc11c \ubcf4\ub3c4\ube14\ub7ed \uad50\uccb4\uc791\uc5c5 \uc911.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "17:55"
+          ],
+          "GPS": "37.41784218000322,126.69377788814938",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\uace0\uc18d\ub3c4\ub85c \uc11c\uc6b8\ubc29\ud5a5, \uc11c\uc778\ucc9c\uc5d0\uc11c \uc11c\uc6b4\ubd84\uae30\uc810\uad6c\uac04 \uac13\uae38 \uc774\ub3d9\ud558\uba74\uc11c \uccad\uc18c \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "18:19"
+          ],
+          "GPS": "37.52365097431275,126.69339685010895",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\uace0\uc18d\ub3c4\ub85c \uc11c\uc6b8\ubc29\ud5a5, \uc11c\uc778\ucc9c\uc5d0\uc11c \uc778\ucc9c\uc694\uae08\uc18c\uad6c\uac04 1\ucc28\ub85c\uc5d0\uc11c \uc2dc\uc124\ubb3c \ubcf4\uc218 \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "18:20"
+          ],
+          "GPS": "37.52346232427147,126.69361255887571",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\uace0\uc18d\ub3c4\ub85c \uc778\ucc9c\ubc29\ud5a5, \ubd80\ucc9c\ubd80\uadfc\uc5d0\uc11c \uc11c\uc778\ucc9c\ubd80\uadfc\uae4c\uc9c0 1\ucc28\ub85c \ub530\ub77c \uc774\ub3d9\ud558\uba74\uc11c \uccad\uc18c \uc791\uc5c5 \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-17",
+            "18:22"
+          ],
+          "GPS": "37.52421389154302,126.77544471963671",
+          "vid": "82"
+        },
+        {
+          "contents": "\uc778\ucc9c\ub300\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\uc5d0\uc11c \uac00\uc88c\ub098\ub4e4\ubaa9 \uc9c0\ub098 \uc11c\uc778\ucc9c\ub098\ub4e4\ubaa9\ucabd\uc73c\ub85c \uc815\uccb4. \ubc18\ub300\ubc29\ud5a5 \uac00\uc88c\ub098\ub4e4\ubaa9\uc5d0\uc11c \ub3c4\ud654\ub098\ub4e4\ubaa9\ucabd\uc73c\ub85c \uc815\uccb4.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-29",
+            "18:15"
+          ],
+          "GPS": "37.46199978488475,126.67241006692619",
+          "vid": "82"
+        },
+        {
+          "contents": "\"\uacbd\uc6d0\ub300\ub85c \uc2ed\uc815\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc815\uccb4.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-04-29",
+            "18:32"
+          ],
+          "GPS": "37.473102215172304,126.69157423082534",
+          "vid": "82"
+        },
+        {
+          "contents": "\"<\uae34\uae09> \uc778\ucc9c\ub300\ub85c \uac00\uc88c\ub098\ub4e4\ubaa9\uc5d0\uc11c \ub3c4\ud654\ub098\ub4e4\ubaa9\ubc29\ud5a5, \uac00\uc88c\ub098\ub4e4\ubaa9 \uc57d 150m \uc9c0\ub09c \uc9c0\uc810 1\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uad00\ub828 \uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uace0, \ubd80\uadfc\uc5d0\uc11c \uc815\uccb4.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-05-06",
+            "18:40"
+          ],
+          "GPS": "37.48364793139417,126.67457120816671",
+          "vid": "82"
+        },
+        {
+          "contents": "\uc778\ucc9c\ub300\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\uc5d0\uc11c \uac00\uc88c\ub098\ub4e4\ubaa9 \uc9c0\ub098 \uc11c\uc778\ucc9c\ub098\ub4e4\ubaa9\uad6c\uac04 \uc815\uccb4.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-12",
+            "18:15"
+          ],
+          "GPS": "37.461923853212454,126.671833936192",
+          "vid": "82"
+        },
+        {
+          "contents": "\"\ubc31\ubc94\ub85c \uac00\uc88c\ub098\ub4e4\ubaa9\uc5d0\uc11c \uc2ed\uc815\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc2ed\uc815\uc0ac\uac70\ub9ac \uc57d 400m \ubabb \uac04 \uc9c0\uc810\ubd80\ud130 \uc815\uccb4.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-05-12",
+            "18:22"
+          ],
+          "GPS": "37.484439814019915,126.67502568947047",
+          "vid": "82"
+        },
+        {
+          "contents": "\ubc31\ubc94\ub85c \uc2ed\uc815\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubcbd\ub3cc\ub9c9\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \uc138\ubc88\uc774\uc0c1.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-12",
+            "18:26"
+          ],
+          "GPS": "37.47320373962787,126.69163599048944",
+          "vid": "82"
+        },
+        {
+          "contents": "\uac74\uc9c0\ub85c \uc11d\ub0a8\uc0ac\uac70\ub9ac\uc5d0\uc11c \uac74\uc9c0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-12",
+            "19:08"
+          ],
+          "GPS": "37.49913752415615,126.67587801616698",
+          "vid": "82"
+        },
+        {
+          "contents": "\uc778\ucc9c\ub300\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\uc5d0\uc11c \uac00\uc88c\ub098\ub4e4\ubaa9 \uc9c0\ub098 \uc11c\uc778\ucc9c\ub098\ub4e4\ubaa9\ucabd\uc73c\ub85c \uc815\uccb4 \uc2ec\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-15",
+            "18:09"
+          ],
+          "GPS": "37.461923853212454,126.671833936192",
+          "vid": "82"
+        },
+        {
+          "contents": "\"\ubc31\ubc94\ub85c \uac00\uc88c\ub098\ub4e4\ubaa9\uc5d0\uc11c \uc2ed\uc815\uc0ac\uac70\ub9ac\uad6c\uac04, \uc2ed\uc815\uc0ac\uac70\ub9ac 400m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810\ubd80\ud130 \uc815\uccb4 \uc2ec\ud568.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-05-15",
+            "18:15"
+          ],
+          "GPS": "37.484439814019915,126.67502568947047",
+          "vid": "82"
+        },
+        {
+          "contents": "\ubc31\ubc94\ub85c \uc2ed\uc815\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubcbd\ub3cc\ub9c9\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2ed\uc815\uc2dc\uc7a5\uc785\uad6c \uc870\uae08 \ubabb \uac04 \uc9c0\uc810\ubd80\ud130 \uc815\uccb4.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-15",
+            "18:50"
+          ],
+          "GPS": "37.47320373962787,126.69163599048944",
+          "vid": "82"
+        },
+        {
+          "contents": "\uac74\uc9c0\ub85c \uac74\uc9c0\uc0bc\uac70\ub9ac\uc5d0\uc11c \uac74\uc9c0\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc815\uccb4.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-21",
+            "18:28"
+          ],
+          "GPS": "37.49851731828473,126.6780689286792",
+          "vid": "82"
+        },
+        {
+          "contents": "\uc778\ucc9c\ub300\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\uc5d0\uc11c \uac00\uc88c\ub098\ub4e4\ubaa9 \uc9c0\ub098 \uc11c\uc778\ucc9c\ub098\ub4e4\ubaa9\ucabd\uc73c\ub85c \uc815\uccb4.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-22",
+            "17:50"
+          ],
+          "GPS": "37.461923853212454,126.671833936192",
+          "vid": "82"
+        },
+        {
+          "contents": "\"\ubc31\ubc94\ub85c \uac00\uc88c\ub098\ub4e4\ubaa9\uc5d0\uc11c \uc2ed\uc815\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc2ed\uc815\uc0ac\uac70\ub9ac \uc57d 300m \ubabb \uac04 \uc9c0\uc810\ubd80\ud130 \uc815\uccb4.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-05-22",
+            "17:56"
+          ],
+          "GPS": "37.484439814019915,126.67502568947047",
+          "vid": "82"
+        },
+        {
+          "contents": "\ubc31\ubc94\ub85c \uc2ed\uc815\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubcbd\ub3cc\ub9c9\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \uc138\ubc88\uc774\uc0c1.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-22",
+            "18:12"
+          ],
+          "GPS": "37.47320373962787,126.69163599048944",
+          "vid": "82"
+        },
+        {
+          "contents": "<\ucd5c\ucd08> \ub3d9\uc0b0\ub85c \ubc15\ubb38\uc0bc\uac70\ub9ac\uc5d0\uc11c \uc1a1\ub9bc\uc624\uac70\ub9ac\uad6c\uac04 \ub3d9\uad6c\uccad\uc785\uad6c \ubd80\uadfc \ud558\uc704\ucc28\ub85c \ub9c9\uace0 \uac00\ub85c\uc218 \uac00\uc9c0\uce58\uae30 \uc791\uc5c5 \uc911.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-23",
+            "16:37"
+          ],
+          "GPS": "37.468657876783084,126.65104153536338",
+          "vid": "82"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\ub85c \ub3c4\ud654\uad50\ucc28\ub85c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac \uc57d 30m \ubabb \uac04 \uc9c0\uc810 1\ucc28\ub85c\uc5d0 \uc2b9\ud569\ucc28\uac00 \uace0\uc7a5\uc73c\ub85c \uc138\uc6cc\uc838 \uc788\uc74c.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-15",
+            "18:42"
+          ],
+          "GPS": "37.4612174825704,126.67297863333589",
+          "vid": "108"
+        },
+        {
+          "contents": "\"<\uae34\uae09> \uc6b0\ud604\ub85c \ub2f5\ub3d9\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\uc778\ucc9c\uc5ed\uc0bc\uac70\ub9ac\ubc29\ud5a5, \uacbd\ub3d9\uc0ac\uac70\ub9ac \ub0b4\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uc640 \ud0dd\uc2dc\uac04 \uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-26",
+            "16:29"
+          ],
+          "GPS": "37.470317965072354,126.62742734207106",
+          "vid": "108"
+        },
+        {
+          "contents": "\"\ubc31\ubc94\ub85c \uc7a5\uc218\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub9cc\uc218\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4, \uc11c\ud589.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-27",
+            "18:59"
+          ],
+          "GPS": "37.450105388154945,126.7461442991532",
+          "vid": "108"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 5\uc6d4 5\uc77c\uae4c\uc9c0 \uacbd\uc778\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\ucd9c\uad6c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \ucc28\ub85c\ub97c \ubd80\ubd84\ud1b5\uc81c\ud558\uace0 \uad50\ud1b5 \uac1c\uc120 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "17:12"
+          ],
+          "GPS": "37.46203412334107,126.67179671889193",
+          "vid": "108"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 7\uc6d4 15\uc77c\uae4c\uc9c0 \uc11c\uad6c \uc2ec\uace1\ub3d9 242-13 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "19:18"
+          ],
+          "GPS": "37.54549772118568,126.6731709548665",
+          "vid": "108"
+        },
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uc778\ub85c \uc8fc\uc548\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3c4\ud654\uad50\ucc28\ub85c \ud558\uc704\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uac04 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c. \uc774\ub85c\uc778\ud574 \uc778\ucc9c\ub300\ub85c \uc778\ucc9c\ubc29\ud5a5, \ub3c4\ud654\ub098\ub4e4\ubaa9 \uc9c4\ucd9c\ucc28\ub7c9\ub4e4 \uc8fc\uc758\uc694\ub9dd.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-05-16",
+            "18:24"
+          ],
+          "GPS": "37.464092804443425,126.67337868824384",
+          "vid": "108"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 1,
+      "AS": 1,
+      "NT": 49.74,
+      "UR": 1,
+      "VT": 107.05,
+      "connectivity": 8.29,
+      "CF": 6,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "108",
+        "VT": 0,
+        "position": 8.29,
+        "updateTime": 0
+      }
+    ]
+  }
+}

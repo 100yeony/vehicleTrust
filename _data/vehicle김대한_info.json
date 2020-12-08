@@ -1,0 +1,62 @@
+{
+  "__Vehicle__": {
+    "vid": "9",
+    "user": "\uae40\ub300\ud55c",
+    "social_activities": {
+      "info": {
+        "response": 3,
+        "received_data": 10,
+        "not_used_data": 9,
+        "redistributed_data": 1
+      },
+      "scoring": 0.3,
+      "ignoring": 0.9,
+      "sharing": 0.1
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\ud638\uad6c\ud3ec\ub85c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\ubc29\ud5a5 \ubc00\ub9bc.",
+          "score": 0.03,
+          "createdTime": [
+            "2020-05-25",
+            "10:54"
+          ],
+          "GPS": "37.47919412307878,126.7107125011288",
+          "vid": "10"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uc778\ub85c \ub3d9\uc218\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\uc18c\uc815\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3d9\uc18c\uc815\uc0ac\uac70\ub9ac 200m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 2,3\ucc28\ub85c\uc5d0 \uac78\uccd0 \uc2b9\uc6a9\ucc28\uc640 \ud0dd\uc2dc\uac04\uc758 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098 \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c.\"",
+          "score": 0.8,
+          "createdTime": [
+            "2020-05-25",
+            "10:54"
+          ],
+          "GPS": "37.47919412307878,126.7107125011288",
+          "vid": "45"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 1.11,
+      "AS": 0.4,
+      "NT": 3.6,
+      "UR": 1.5100000000000002,
+      "VT": 4.66,
+      "connectivity": 1.0,
+      "CF": 9,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "44",
+        "VT": 0,
+        "position": 1.0,
+        "updateTime": 0
+      }
+    ]
+  }
+}

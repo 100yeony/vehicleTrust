@@ -1,0 +1,48 @@
+{
+  "__Vehicle__": {
+    "vid": "17",
+    "user": "\uc815\ucd98\ubb35",
+    "social_activities": {
+      "info": {
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) \uc11c\uc6b8\uc2dc \ub3c5\ub9c9\ub85c \uc0c1\uc218\uc5ed\uc5d0\uc11c \uad11\ud765\ucc3d\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc0c1\uc218\uc5ed3\ubc88\ucd9c\uad6c \ubd80\uadfc \uc57d 50m\uad6c\uac04 \ud558\uc704\ucc28\ub85c \ub9c9\uace0 \uc2b9\uac15\ud3b8\uc758\uc2dc\uc124 \uc124\uce58 \uacf5\uc0ac \uc911.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-01-31",
+            "07:26"
+          ],
+          "GPS": "37.44449738313123,126.69942409764826",
+          "vid": "18"
+        }
+      ],
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
+    },
+    "VTI": {
+      "DR": 0,
+      "AS": 0,
+      "NT": 0,
+      "UR": 0,
+      "VT": 0,
+      "connectivity": 0,
+      "CF": 0,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "__Vehicle__": {
+    "vid": "7",
+    "user": "\uae40\uc6b0\uc2e0",
+    "social_activities": {
+      "info": {
+        "response": 10,
+        "received_data": 9,
+        "not_used_data": 3,
+        "redistributed_data": 9
+      },
+      "scoring": 1.11,
+      "ignoring": 0.33,
+      "sharing": 1.0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uc778\uace0\uc18d\ub3c4\ub85c \uc11c\uc6b8\ubc29\ud5a5, \ubd80\ud3c9\ub098\ub4e4\ubaa9 1Km \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 3\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uad00\ub828 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc774 \uc5ec\ud30c\ub85c \ub4a4\ub85c \uc624\ub294 \ucc28\ub7c9\ub4e4 \uc815\uccb4.\"",
+          "score": 1.11,
+          "createdTime": [
+            "2020-01-17",
+            "18:16"
+          ],
+          "GPS": "37.52372309367391,126.72740194293091",
+          "vid": "7"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) \uc624\ub298 \ubc24 9\uc2dc\ubd80\ud130 \ub0b4\uc77c \uc0c8\ubcbd 6\uc2dc\uae4c\uc9c0, \uacbd\uc778\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\ucd9c\uad6c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \ucc28\ub85c\ub97c \ubd80\ubd84 \ud1b5\uc81c\ud558\uace0 \uc774\ub3d9\ud558\uba74\uc11c \ub3c4\ub85c\ud3ec\uc7a5 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud558\ub2c8, \uac00\uae09\uc801 \uc6b0\ud68c\ud558\uc2dc\uae30 \ubc14\ub78c.\"",
+          "score": 0.8,
+          "createdTime": [
+            "2020-05-25",
+            "10:54"
+          ],
+          "GPS": "37.47919412307878,126.7107125011288",
+          "vid": "52"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 3.03,
+      "AS": 2.11,
+      "NT": 1848.04,
+      "UR": 5.14,
+      "VT": 197.45999999999998,
+      "connectivity": 175.17,
+      "CF": 5,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "51",
+        "VT": 0,
+        "position": 175.17,
+        "updateTime": 0
+      }
+    ]
+  }
+}

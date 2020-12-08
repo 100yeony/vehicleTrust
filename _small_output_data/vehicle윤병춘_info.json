@@ -1,0 +1,122 @@
+{
+  "__Vehicle__": {
+    "vid": "60",
+    "user": "\uc724\ubcd1\ucd98",
+    "social_activities": {
+      "info": {
+        "response": 8,
+        "received_data": 10,
+        "not_used_data": 1,
+        "redistributed_data": 10
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 5\uc6d4 9\uc77c\uae4c\uc9c0 \uc5f0\uc218\uad6c \uc575\uace0\uac1c\ub85c \uc678 2\uac1c\uc18c\uc5d0\uc11c \uc7ac\ub09c\ub300\ube44 \ub3c4\ub85c \uc720\uc9c0 \ubcf4\uc218\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "17:56"
+          ],
+          "GPS": "37.408812589080455,126.64720221408452",
+          "vid": "60"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \ubb38\ud559\uacbd\uae30\uc7a5\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ubb38\ud559\uacbd\uae30\uc7a5\uc0ac\uac70\ub9ac \uc9c0\ub098\uc790\ub9c8\uc790 1\ucc28\ub85c\uc5d0\uc11c 3\uc911 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \ud604\uc7ac \uc0ac\uace0 \ucc98\ub9ac \uc911.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-05-11",
+            "09:54"
+          ],
+          "GPS": "37.43892688009497,126.69502818681752",
+          "vid": "60"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\ub85c \ub3c4\ud654\uad50\ucc28\ub85c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac \uc57d 30m \ubabb \uac04 \uc9c0\uc810 1\ucc28\ub85c\uc5d0 \uc2b9\ud569\ucc28\uac00 \uace0\uc7a5\uc73c\ub85c \uc138\uc6cc\uc838 \uc788\uc74c.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-15",
+            "18:42"
+          ],
+          "GPS": "37.4612174825704,126.67297863333589",
+          "vid": "108"
+        },
+        {
+          "contents": "\"<\uae34\uae09> \uc6b0\ud604\ub85c \ub2f5\ub3d9\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\uc778\ucc9c\uc5ed\uc0bc\uac70\ub9ac\ubc29\ud5a5, \uacbd\ub3d9\uc0ac\uac70\ub9ac \ub0b4\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uc640 \ud0dd\uc2dc\uac04 \uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-26",
+            "16:29"
+          ],
+          "GPS": "37.470317965072354,126.62742734207106",
+          "vid": "108"
+        },
+        {
+          "contents": "\"\ubc31\ubc94\ub85c \uc7a5\uc218\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub9cc\uc218\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4, \uc11c\ud589.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-02-27",
+            "18:59"
+          ],
+          "GPS": "37.450105388154945,126.7461442991532",
+          "vid": "108"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 5\uc6d4 5\uc77c\uae4c\uc9c0 \uacbd\uc778\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\ucd9c\uad6c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \ucc28\ub85c\ub97c \ubd80\ubd84\ud1b5\uc81c\ud558\uace0 \uad50\ud1b5 \uac1c\uc120 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "17:12"
+          ],
+          "GPS": "37.46203412334107,126.67179671889193",
+          "vid": "108"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 7\uc6d4 15\uc77c\uae4c\uc9c0 \uc11c\uad6c \uc2ec\uace1\ub3d9 242-13 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 1,
+          "createdTime": [
+            "2020-04-14",
+            "19:18"
+          ],
+          "GPS": "37.54549772118568,126.6731709548665",
+          "vid": "108"
+        },
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uc778\ub85c \uc8fc\uc548\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3c4\ud654\uad50\ucc28\ub85c \ud558\uc704\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uac04 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c. \uc774\ub85c\uc778\ud574 \uc778\ucc9c\ub300\ub85c \uc778\ucc9c\ubc29\ud5a5, \ub3c4\ud654\ub098\ub4e4\ubaa9 \uc9c4\ucd9c\ucc28\ub7c9\ub4e4 \uc8fc\uc758\uc694\ub9dd.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-05-16",
+            "18:24"
+          ],
+          "GPS": "37.464092804443425,126.67337868824384",
+          "vid": "108"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 1,
+      "AS": 1,
+      "NT": 3128.28,
+      "UR": 1,
+      "VT": 155.93,
+      "connectivity": 521.38,
+      "CF": 6,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "108",
+        "VT": 0,
+        "position": 521.38,
+        "updateTime": 0
+      }
+    ]
+  }
+}

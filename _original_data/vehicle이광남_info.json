@@ -1,0 +1,68 @@
+{
+  "__Vehicle__": {
+    "vid": "67",
+    "user": "\uc774\uad11\ub0a8",
+    "social_activities": {
+      "info": {
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 4\uc6d4 20\uc77c\uae4c\uc9c0, \ub0a8\ub3d9\uad6c \uc18c\ub798\ub85c\uc5d0\uc11c \uc7ac\ub09c\ub300\ube44 \ub3c4\ub85c\uc720\uc9c0\ubcf4\uc218 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-04-14",
+            "09:39"
+          ],
+          "GPS": "37.45275735649766,126.73619821575384",
+          "vid": "67"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 4\uc6d4 30\uc77c\uae4c\uc9c0 \ub9e4\uc77c \ubc24 10\uc2dc\ubd80\ud130 \ub2e4\uc74c\ub0a0 \uc624\uc804 6\uc2dc\uae4c\uc9c0 \uc11c\uc6b8\uc2dc \uc62c\ub9bc\ud53d\ub300\ub85c \ub178\ub7c9\ub300\uad50 \uc591\ubc29\ud5a5\uc5d0\uc11c \ubc30\uc218\ub85c \uc900\uc124\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 0,
+          "createdTime": [
+            "2020-04-14",
+            "12:17"
+          ],
+          "GPS": "37.515459511924455,126.95230310015441",
+          "vid": "67"
+        },
+        {
+          "contents": "<\ucd5c\ucd08> \uacbd\uba85\ub300\ub85c \uacc4\uc0b0\uc0bc\uac70\ub9ac\uc5d0\uc11c \uacf5\ucd0c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc911\uac04 \uc9c0\uc810 \ud558\uc704\ucc28\ub85c\uc5d0 \uc791\uc5c5\ucc28\ub7c9 \uc5ec\ub7ec\ub300 \uc138\uc6cc\ub450\uace0 \uac00\ub85c\uc218 \uac00\uc9c0\uce58\uae30 \uc791\uc5c5 \uc911.",
+          "score": 0,
+          "createdTime": [
+            "2020-04-30",
+            "08:28"
+          ],
+          "GPS": "37.5468499067689,126.70780896399141",
+          "vid": "67"
+        }
+      ],
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
+    },
+    "VTI": {
+      "DR": 0,
+      "AS": 0,
+      "NT": 0,
+      "UR": 0,
+      "VT": 0,
+      "connectivity": 0,
+      "CF": 0,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": []
+  }
+}

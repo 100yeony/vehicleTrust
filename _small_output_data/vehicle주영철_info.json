@@ -1,0 +1,72 @@
+{
+  "__Vehicle__": {
+    "vid": "98",
+    "user": "\uc8fc\uc601\ucca0",
+    "social_activities": {
+      "info": {
+        "response": 8,
+        "received_data": 9,
+        "not_used_data": 3,
+        "redistributed_data": 8
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uba85\ub300\ub85c \uacf5\ucd0c\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubd81\uc778\ucc9c\ub098\ub4e4\ubaa9\uc785\uad6c\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc5f0\ud76c\uc9c0\ud558\ucc28\ub3c4 \ucd9c\uad6c\ubd80\uadfc 1\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uad00\ub828 \uac00\ubcbc\uc6b4 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c. \uc774 \uc5ec\ud30c\ub85c \ub4a4\ub85c \uc624\ub294 \ucc28\ub7c9\ub4e4 \ubc00\ub9bc.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-01-29",
+            "07:53"
+          ],
+          "GPS": "37.57694822495539,126.93371795409129",
+          "vid": "98"
+        },
+        {
+          "contents": "\"<\uae34\uae09> \uc778\ucc9c\ub300\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\uc5d0\uc11c \uc778\ud558\ub300\ubcd1\uc6d0\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc778\ud558\ub300\ubcd1\uc6d0\uc0ac\uac70\ub9ac 200m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 1,2\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uad00\ub828 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c. \uc774 \uc5ec\ud30c\ub85c \ubc00\ub9bc.\"",
+          "score": 1,
+          "createdTime": [
+            "2020-05-07",
+            "09:42"
+          ],
+          "GPS": "37.46057358921133,126.67147249052432",
+          "vid": "98"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "\ub9cc\uc6d4\ub85c \ubd80\ud3c9\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc778\ucc9c\uac00\uc871\uacf5\uc6d0\ubd80\uadfc\uae4c\uc9c0 \ubc29\ubb38\ucc28\ub7c9\ub4e4 \ub9ce\uc544 \ubc00\ub9bc.",
+          "score": 1,
+          "createdTime": [
+            "2020-05-08",
+            "11:29"
+          ],
+          "GPS": "37.479255113412606,126.71078292724366",
+          "vid": "109"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 1,
+      "AS": 1,
+      "NT": 45477864120.64,
+      "UR": 1,
+      "VT": 213355.4,
+      "connectivity": 5684733015.08,
+      "CF": 8,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "109",
+        "VT": 0,
+        "position": 5684733015.08,
+        "updateTime": 0
+      }
+    ]
+  }
+}

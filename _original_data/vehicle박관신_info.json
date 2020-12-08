@@ -1,0 +1,68 @@
+{
+  "__Vehicle__": {
+    "vid": "41",
+    "user": "\ubc15\uad00\uc2e0",
+    "social_activities": {
+      "info": {
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"<\uae34\uae09> \ubd09\uc218\ub300\ub85c\uc640 \ubc29\ucd95\ub85c\uac00 \uad50\ucc28\ud558\ub294 \uc0b0\uc5c5\uc6a9\ud488\uc13c\ud130\uc0ac\uac70\ub9ac \ub0b4\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uad00\ub828 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uace0, \uac01 \ubc29\ud5a5\uc73c\ub85c \uc9c0\uccb4.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-02-15",
+            "16:55"
+          ],
+          "GPS": "37.4826463023454,126.65886262766968",
+          "vid": "41"
+        },
+        {
+          "contents": "\ubc31\ubc94\ub85c \uac00\uc88c\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2ed\uc815\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4.",
+          "score": 0,
+          "createdTime": [
+            "2020-02-15",
+            "17:55"
+          ],
+          "GPS": "37.48429138276546,126.67675340737335",
+          "vid": "41"
+        },
+        {
+          "contents": "\uc778\uc8fc\ub300\ub85c \ub3c5\uc815\uc774\uc0bc\uac70\ub9ac\uc5d0\uc11c \uc6a9\uc77c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
+          "score": 0,
+          "createdTime": [
+            "2020-05-08",
+            "16:30"
+          ],
+          "GPS": "37.45599578686525,126.65541502038545",
+          "vid": "41"
+        }
+      ],
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
+    },
+    "VTI": {
+      "DR": 0,
+      "AS": 0,
+      "NT": 0,
+      "UR": 0,
+      "VT": 0,
+      "connectivity": 0,
+      "CF": 0,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": []
+  }
+}

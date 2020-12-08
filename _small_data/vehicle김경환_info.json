@@ -1,0 +1,68 @@
+{
+  "__Vehicle__": {
+    "vid": "4",
+    "user": "\uae40\uacbd\ud658",
+    "social_activities": {
+      "info": {
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
+      },
+      "scoring": 0,
+      "ignoring": 0,
+      "sharing": 0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uc778\ub85c \ub3d9\uc218\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\uc18c\uc815\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3d9\uc18c\uc815\uc0ac\uac70\ub9ac 200m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 2,3\ucc28\ub85c\uc5d0 \uac78\uccd0 \uc2b9\uc6a9\ucc28\uc640 \ud0dd\uc2dc\uac04\uc758 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098 \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-01-22",
+            "11:25"
+          ],
+          "GPS": "37.48556332697589,126.71873269579066",
+          "vid": "4"
+        },
+        {
+          "contents": "\"<\uae34\uae09> \uacbd\uc6d0\ub300\ub85c \ubd80\ud3c9\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uad74\ub2e4\ub9ac\uc624\uac70\ub9ac\ubc29\ud5a5, \ubd80\ud3c9\uc5ed\uc0ac\uac70\ub9ac \uc57d 50m \uc9c0\ub09c \uc9c0\uc810 2\ucc28\ub85c\uc5d0\uc11c 1\ud1a4\ud654\ubb3c\ucc28\uc640 \uc2b9\uc6a9\ucc28\uac04 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758\uc694\ub9dd.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-01-30",
+            "10:10"
+          ],
+          "GPS": "37.49130411197502,126.72313244834255",
+          "vid": "4"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uc778\uc8fc\ub300\ub85c \uc2b9\uae30\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2e0\uae30\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc2e0\uae30\uc0ac\uac70\ub9ac \uc57d 100m \ubabb \uac04 \uc9c0\uc810 2\ucc28\ub85c\uc5d0 \uc2b9\uc6a9\ucc28\uac00 \uace0\uc7a5\uc73c\ub85c \uc138\uc6cc\uc838 \uc788\uc74c.\"",
+          "score": 0,
+          "createdTime": [
+            "2020-02-15",
+            "19:03"
+          ],
+          "GPS": "37.450805527375884,126.6902418103008",
+          "vid": "4"
+        }
+      ],
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
+    },
+    "VTI": {
+      "DR": 0,
+      "AS": 0,
+      "NT": 0,
+      "UR": 0,
+      "VT": 0,
+      "connectivity": 0,
+      "CF": 0,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": []
+  }
+}

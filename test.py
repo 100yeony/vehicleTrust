@@ -111,9 +111,24 @@ class Vehicle:
     def __getitem__(self, item):
         return self.info[item]
 ###############################################################################
+def event_txt2list() :
+    lists = []
+    files = os.listdir('./event')
+    for file in files:
+        f = open(f'./event/{file}', 'r')
+        while True :
+            line = f.readline().rstrip("\n")
+            if line :
+                line = line.split('\t')
+                lists.append(line)
+            else :
+                break
+    return lists
+
+
 def txt2list() :
     lists = []
-    file = open('event_08_tab.txt', 'r')
+    file = open('./event/1.txt', 'r')
     while True :
         line = file.readline().rstrip("\n")
         if line :
@@ -122,6 +137,70 @@ def txt2list() :
         else :
             break
     return lists
+
+def make_mal(origin_v_list, mal_cnt):
+    # print('origin_v_list -======>', len(origin_v_list))
+    number = set()
+    while len(number)<mal_cnt:
+        number.add(random.randint(1,len(origin_v_list)))
+    mal_vehicle_num = sorted(list(number))
+    mal_user_id = []
+    mal_user = []
+    # print(mal_vehicle_num)
+
+    mal_vehicle = []
+    for i in range(1,len(origin_v_list)):
+        if i in mal_vehicle_num:
+            i = 1
+        else:
+            i = 0
+        mal_vehicle.append(i)
+    # print(mal_vehicle)
+
+    for i in origin_v_list :
+        # print("i??:", i)
+        for key,info in i.items():
+            for second_key in info:
+                if int(info['vid']) in mal_vehicle_num:
+                    mal_user_id.append((info['vid'],info['user']))
+
+    mal_user_id = set(mal_user_id)
+    mal_user_id = [(x[0],x[1]) for x in sorted(mal_user_id, key = lambda x:x[0])] # vid로 정렬
+    for i in mal_user_id:
+        mal_user.append(i[1])
+    return mal_user_id, mal_user, mal_vehicle_num, mal_vehicle
+
+def make_mixed_data(reporters, original_data, mal_user):
+    # print(mal_user)
+    #===================================================================
+    #-------------------------- 직렬화&역직렬화(mixed data) 2 ------------
+    #===================================================================
+    for i in reporters:
+        vehicle = Vehicle(f'{reporters.index(i)+1}', i)
+        tempdata = ''
+        created_data = []
+        maldata = []
+        tempdata = random.choice(original_data)
+        for c in original_data:
+            if i == c[10] and c[15] != '' and i not in mal_user:
+                data = {'contents':c[14], 'score':0,'createdTime':(c[2],c[3]),'GPS':c[15], 'vid':f'{reporters.index(i)+1}'}
+                created_data.append(data)
+                vehicle.update_VDI({'createdData':created_data,'receivedData':{'contents':[], 'score':0,'createdTime':0}})
+
+        if i in mal_user and i not in maldata:
+            data = {'contents':tempdata[14], 'score':0,'createdTime':(c[2],c[3]),'GPS':c[15], 'vid':f'{reporters.index(i)+2}'}
+            maldata.append(data)
+            vehicle.update_VDI({'createdData':maldata,'receivedData':{'contents':[], 'score':0,'createdTime':0}})
+
+        social_info = {'response':0, 'received_data':0, 'not_used_data':0, 'redistributed_data':0}
+        social_activity = {'info':social_info,'scoring':0, 'ignoring':0, 'sharing':0}
+        vehicle.update_social(social_activity)
+
+
+    ################# mix data 직렬화 #######################
+        with open('./_small_mixed_data/'+f'vehicle{i}_info.json', mode='w', encoding='UTF8') as f:
+            json.dump(vehicle, f, cls=CustomEncoder, indent=2)
+            # print('complete!!')
 
 
 def fix_data(original_data):
@@ -140,8 +219,8 @@ def fix_data(original_data):
     return list
 
 ####################### mixed data 로 변경해줘야 잘 돌아감 ####################
-def make_vlist():
-    files = os.listdir('./mixed_data')
+def make_mixed_vlist():
+    files = os.listdir('./_small_mixed_data')
     list = []
     for file in files:
         list.append(file)
@@ -291,16 +370,24 @@ def calculate_dist(v1, v2):
     v1_y=0
     v2_x=0
     v2_y=0
-    for i in v1_temp[0]:
-        gps = v1_temp[0]['GPS'].split(',')
-        v1_x = round(float(gps[1]),5)
-        v1_y = round(float(gps[0]),5)
+    try:
+        for i in v1_temp[0]:
+            gps = v1_temp[0]['GPS'].split(',')
+            v1_x = round(float(gps[1]),5)
+            v1_y = round(float(gps[0]),5)
+    except:
+        v1_x = 126.67771
+        v1_y = 37.54149
 
-    for i in v2_temp[0]:
-        gps = v2_temp[0]['GPS'].split(',')
-        v2_x = round(float(gps[1]),5)
-        v2_y = round(float(gps[0]),5)
-    # print('??',v1_x, v1_y, v2_x, v2_y)
+    try:
+        for i in v2_temp[0]:
+            gps = v2_temp[0]['GPS'].split(',')
+            v2_x = round(float(gps[1]),5)
+            v2_y = round(float(gps[0]),5)
+        # print('??',v1_x, v1_y, v2_x, v2_y)
+    except:
+        v1_x = 126.67771
+        v1_y = 37.54149
 
     # 서울시청 126.97843, 37.56668
     # 강남역   127.02758, 37.49794
@@ -363,7 +450,12 @@ def change_VTI(v, con):
         UR = 1
 
     CF = random.randint(1,10)   # of packets forwarded / avg number of packets observed at neighbors
-    connectivity = round(math.exp(con),2)
+
+    try:
+        connectivity = round(math.exp(con),2)
+    except OverflowError:
+        connectivity = float('inf')
+    # print('connectivity =', connectivity)
     NT = round(AS*connectivity*CF,2)
     # print('DR:', DR, 'AS:',AS, 'UR:', UR, 'NT:', NT)
 
@@ -480,29 +572,9 @@ def make_VT_algorithm(v, mal_vehicle) :
     return v
 
 
-def make_performance(target,find):
-    target = np.array(target)
-    find = np.array(find)
-
-    accuracy = round(np.mean(np.equal(target,find)),2)
-    right = np.sum(target * find == 1)
-    precision = round(right / np.sum(find),2)
-    recall = round(right / np.sum(target),2)
-    f1 = 2 * round(precision*recall/(precision+recall),2)
-    print('==============================')
-    print('accuracy :',accuracy)
-    print('precision :', precision)
-    print('recall :', recall)
-    print('f1 :', f1)
-    print('==============================')
-
-    return accuracy, precision, recall, f1
-
-
-
 def carTrust(mal_vehicle):
     #### mixed data에서 모든 vehicle 정보를 불러옴 ####
-    v_list = make_vlist()
+    v_list = make_mixed_vlist()
     final_vlist = []
     v1 = ''
     v2 = ''
@@ -517,9 +589,9 @@ def carTrust(mal_vehicle):
 
         if v1_temp != v2_temp:
             # << 역직렬화 >>
-            with open('./original_data/'+f'{v1_temp}', 'rb') as f:
+            with open('./_small_mixed_data/'+f'{v1_temp}', 'rb') as f:
                 v1 = json.load(f)
-            with open('./original_data/'+f'{v2_temp}', 'rb') as f:
+            with open('./_small_mixed_data/'+f'{v2_temp}', 'rb') as f:
                 v2 = json.load(f)
 
             v1_list_check.remove(v1_temp)
@@ -550,7 +622,7 @@ def carTrust(mal_vehicle):
         #         vidtemp=info['vid']
         # if vidtemp in mal_vehicle:
         #     print(v1)
-
+        '''
         response=0
         received_data=0
         not_used_data=0
@@ -560,6 +632,7 @@ def carTrust(mal_vehicle):
 
         make_social_info(v1, v1_res, v1_received, v1_not_used, v1_redistributed)
         make_social_info(v2, v2_res, v2_received, v2_not_used, v2_redistributed)
+        '''
 
         # print('=============== set_social_init() & make_social_info() ==============')
         # pprint(v1)
@@ -617,12 +690,12 @@ def carTrust(mal_vehicle):
                 name = info['user']
                 # print(name)
         # << 직렬화 >>
-        with open('./data/'+f'vehicle{name}_info.json', mode='w', encoding='UTF8') as f:
+        with open('./_small_output_data/'+f'vehicle{name}_info.json', mode='w', encoding='UTF8') as f:
             json.dump(i, f, cls=CustomEncoder, indent=2)
             # print('직렬화 complete!!')
     # print('new 직렬화 complete!')
         # << 역직렬화 >>
-        # with open('./data/'+f'vehicle{i}_info.json', 'rb') as f:
+        # with open('./_small_output_data/'+f'vehicle{i}_info.json', 'rb') as f:
         #     data = json.load(f)
         #     print('역직렬화 complete!')
         #     pprint(data, width=100, indent=2)
@@ -633,7 +706,7 @@ def carTrust(mal_vehicle):
 
     #####################################모든 차량이 소셜행위를 수행###################################
     ############### VT알고리즘을 거친 차량 정보를 불러옴 #################
-    files = os.listdir('./data')
+    files = os.listdir('./_small_output_data')
     new_vlist = []
     for file in files:
         new_vlist.append(file)
@@ -642,7 +715,7 @@ def carTrust(mal_vehicle):
 
     find_temp = []
     for i in new_vlist:
-        with open('./data/'+f'{i}', 'rb') as f:
+        with open('./_small_output_data/'+f'{i}', 'rb') as f:
             v = json.load(f)
             VT = 0000000000000
             vid = 0000000000000
@@ -680,6 +753,35 @@ def RSU(v):
     #여러 차량의 VTI를 수집하고 기하평균? 가중평균
 
     return rti
+
+
+
+def make_performance(target,find):
+
+    target = np.array(target)
+    find = np.array(find)
+
+    accuracy = round(np.mean(np.equal(target,find)),2)
+    right = np.sum(target * find == 1)
+    precision = round(right / np.sum(find),2)
+    recall = round(right / np.sum(target),2)
+    f1 = 2 * round(precision*recall/(precision+recall),2)
+    print('==============================')
+    print('accuracy :',accuracy)
+    print('precision :', precision)
+    print('recall :', recall)
+    print('f1 :', f1)
+    print('==============================')
+
+    return accuracy, precision, recall, f1
+
+
+def make_performance_table(accuracy_list, precision_list, recall_list, f1_list):
+    avg_accuracy = round(sum(accuracy_list)/len(accuracy_list),2)
+    avg_precision = round(sum(precision_list)/len(precision_list),2)
+    avg_recall = round(sum(recall_list)/len(recall_list),2)
+    avg_f1 = round(sum(f1_list)/len(f1_list),2)
+    return avg_accuracy, avg_precision, avg_recall, avg_f1
 
 
 def make_chart(mal_v_num, accuracy_list, precision_list, recall_list, f1_list):
@@ -724,44 +826,16 @@ def make_chart_hist(mal_v_num, accuracy_list):
     n, bins, patches = plt.hist(x, num_bins, facecolor='blue', alpha=0.5)
     plt.show()
 
-def make_mal(origin_v_list, mal_cnt):
-    number = set()
-    while len(number)<mal_cnt:
-        number.add(random.randint(1,len(origin_v_list)))
-    mal_vehicle_num = sorted(list(number))
-    mal_user_id = []
-    mal_user = []
-    # print(mal_vehicle_num)
-
-    mal_vehicle = []
-    for i in range(1,len(origin_v_list)):
-        if i in mal_vehicle_num:
-            i = 1
-        else:
-            i = 0
-        mal_vehicle.append(i)
-    # print(mal_vehicle)
-
-    for i in origin_v_list :
-        # print("i??:", i)
-        for key,info in i.items():
-            for second_key in info:
-                if int(info['vid']) in mal_vehicle_num:
-                    mal_user_id.append((info['vid'],info['user']))
-
-    mal_user_id = set(mal_user_id)
-    mal_user_id = [(x[0],x[1]) for x in sorted(mal_user_id, key = lambda x:x[0])] # vid로 정렬
-    for i in mal_user_id:
-        mal_user.append(i[1])
-    return mal_user_id, mal_user, mal_vehicle_num, mal_vehicle
 
 ###############################  main start ####################################
-original_data = txt2list()
+original_data = event_txt2list()
 del(original_data[0]) # delete 1 row
 # print(original_data)
 
 # ------ GPS 집합을 한개의 위도,경도 세트만 남기고 수정 ---------
 original_data = fix_data(original_data)
+# print(original_data)
+
 #===================================================================
 #--------------------------사용자 정제 start-------------------------
 #===================================================================
@@ -773,66 +847,76 @@ for i in original_data :
     # reporters_origin : 137
     # reporters : 126명 (필터링 후)
     # filtered reporter : 11개, {'교통정보센터', '원미가스충전소', '시화주유소', '청도1주유소', '송내지구대', '정보상황실', '애청자', '대명군경합동검문소', '서해가스충전소', '트위터', '그린주유소'}
-    if len(i[10])<=3 and i[10]!='애청자' and i[10]!='트위터':
+    if len(i[10])!=0 and len(i[10])<=3 and i[10] not in ['애청자','트위터']:
         reporters.append(i[10])
 
 reporters_origin = set(reporters_origin)
 reporters = set(reporters)
 filtered_reporter = reporters_origin - reporters
 
-# print('==> reporters_origin:', len(reporters_origin)) # 103개(기관포함)
+# print('==> reporters_origin:', len(reporters_origin)) # 125
 # print(reporters_origin)
-# print('==> reporters :', len(reporters)) # 96명
-# print(reporters)
-# print('==> filtered_reporter:', len(filtered_reporter), filtered_reporter)
+# print('==> filtered_reporter:', len(filtered_reporter), filtered_reporter) # 10
+# print('==> reporters :', len(reporters)) # 115
 
-reporters = list(reporters)
-# print('reporters', reporters)
+reporters = sorted(list(reporters))
+# print('reporters =', reporters, len(reporters))
 
 #===================================================================
-#-------------------------- 직렬화&역직렬화(mixed data) 2 ------------
+#-------------------------- 직렬화&역직렬화(original data) 1 --------
 #===================================================================
 origin_v_list = []
+
+
+for i in reporters:
+    vehicle = Vehicle(f'{reporters.index(i)+1}', i)
+    created_data = []
+    for c in original_data:
+        if i == c[10] and  c[15] != '':
+            data = {'contents':c[14], 'score':0,'createdTime':(c[2],c[3]),'GPS':c[15], 'vid':f'{reporters.index(i)+1}'}
+            created_data.append(data)
+
+        vehicle.update_VDI({'createdData':created_data,'receivedData':{'contents':[], 'score':0,'createdTime':0}})
+
+        social_info = {'response':0, 'received_data':0, 'not_used_data':0, 'redistributed_data':0}
+        social_activity = {'info':social_info,'scoring':0, 'ignoring':0, 'sharing':0}
+        vehicle.update_social(social_activity)
+
+# # <<  original data 직렬화 >>
+    with open('./_small_data/'+f'vehicle{i}_info.json', mode='w', encoding='UTF8') as f:
+        json.dump(vehicle, f, cls=CustomEncoder, indent=2)
+        # print('complete!!')
+
 # # << original data 역직렬화 >>
 for i in reporters:
-    with open('./original_data/'+f'vehicle{i}_info.json', 'rb') as f:
+    with open('./_small_data/'+f'vehicle{i}_info.json', 'rb') as f:
         data = json.load(f)
         origin_v_list.append(data)
         # pprint(data, width=100, indent=2)
 
+# print('????????????????',len(origin_v_list), origin_v_list)
+
+#===================================================================
+#-------------------------- 직렬화&역직렬화(original data) 1 ---------
+#===================================================================
+
 '''
-for i in reporters:
-    vehicle = Vehicle(f'{reporters.index(i)+1}', i)
-    tempdata = ''
-    created_data = []
-    maldata = []
-    tempdata = random.choice(original_data)
-    for c in original_data:
-        if i == c[10] and c[15] != '' and i not in mal_user:
-            data = {'contents':c[14], 'score':0,'createdTime':(c[2],c[3]),'GPS':c[15], 'vid':f'{reporters.index(i)+1}'}
-            created_data.append(data)
-            vehicle.update_VDI({'createdData':created_data,'receivedData':{'contents':[], 'score':0,'createdTime':0}})
+mal_user_id_5, mal_user_5, mal_vehicle_num_5, mal_vehicle_5 = make_mal(origin_v_list,5)
+make_mixed_data(reporters, original_data, mal_user_5)
 
-    if i in mal_user and i not in maldata:
-        data = {'contents':tempdata[14], 'score':0,'createdTime':(c[2],c[3]),'GPS':c[15], 'vid':f'{reporters.index(i)+2}'}
-        maldata.append(data)
-        vehicle.update_VDI({'createdData':maldata,'receivedData':{'contents':[], 'score':0,'createdTime':0}})
+################# mix data 역직렬화 #####################
+test_user = mal_user_5[0]
+with open('./_mixed_data/'+f'vehicle{test_user}_info.json', 'rb') as f:
+    data = json.load(f)
+    print('====== malicious data =======')
+    pprint(data, width=100, indent=2)
 
-    social_info = {'response':0, 'received_data':0, 'not_used_data':0, 'redistributed_data':0}
-    social_activity = {'info':social_info,'scoring':0, 'ignoring':0, 'sharing':0}
-    vehicle.update_social(social_activity)
+# # 원본 비교
+with open('./_original_data/'+f'vehicle{test_user}_info.json', 'rb') as f:
+    data = json.load(f)
+    print('====== original data =======')
+    pprint(data, width=100, indent=2)
 '''
-################## mix data 직렬화 #######################
-    # with open('./mixed_data/'+f'vehicle{i}_info.json', mode='w', encoding='UTF8') as f:
-    #     json.dump(vehicle, f, cls=CustomEncoder, indent=2)
-    #     # print('complete!!')
-
-################## mix data 역직렬화 #####################
-# with open('./mixed_data/'+f'vehicle이승만_info.json', 'rb') as f:
-#     data = json.load(f)
-#     print(type(data))
-#     pprint(data, width=100, indent=2)
-
 #===================================================================
 #------------- mix data 직렬화&역직렬화(mixed data) 2 end -----------
 #===================================================================
@@ -843,11 +927,12 @@ for i in reporters:
 
 
 ############################ 5 ############################
-mal_user_id, mal_user, mal_vehicle_num_5, mal_vehicle_5 = make_mal(origin_v_list, 5)
+print('!!!', len(origin_v_list))
+mal_user_id_5, mal_user_5,  mal_vehicle_num_5, mal_vehicle_5 = make_mal(origin_v_list, 5)
+make_mixed_data(reporters, original_data, mal_user_5)
 print('==================5==================')
-print(' * mal_user_id =',mal_user_id)
-print(' * mal_user =',mal_user)
-# print('mal_vehicle_num_5 =',mal_vehicle_num_5)
+print(' * mal_user_id =',mal_user_id_5)
+print(' * mal_user =',mal_user_5)
 
 target_5, find_num_5, find_5 = carTrust(mal_vehicle_num_5)
 print(' * target_5 =', target_5)
@@ -857,10 +942,11 @@ print('===> find_5 =', find_5)
 accuracy_5, precision_5, recall_5, f1_5 = make_performance(mal_vehicle_5, find_5)
 
 ############################ 10 ############################
-mal_user_id, mal_user, mal_vehicle_num_10, mal_vehicle_10 = make_mal(origin_v_list, 10)
+mal_user_id_10, mal_user_10, mal_vehicle_num_10, mal_vehicle_10 = make_mal(origin_v_list, 10)
+make_mixed_data(reporters, original_data, mal_user_10)
 print('==================10==================')
-print(' * mal_user_id =',mal_user_id)
-print(' * mal_user =',mal_user)
+print(' * mal_user_id =',mal_user_id_10)
+print(' * mal_user =',mal_user_10)
 # print('mal_vehicle_num_10 =',mal_vehicle_num_10)
 
 target_10, find_num_10, find_10 = carTrust(mal_vehicle_num_10)
@@ -872,10 +958,11 @@ accuracy_10, precision_10, recall_10, f1_10 = make_performance(mal_vehicle_10, f
 
 
 ############################ 15 ############################
-mal_user_id, mal_user, mal_vehicle_num_15, mal_vehicle_15 = make_mal(origin_v_list, 15)
+mal_user_id_15, mal_user_15, mal_vehicle_num_15, mal_vehicle_15 = make_mal(origin_v_list, 15)
+make_mixed_data(reporters, original_data, mal_user_15)
 print('==================15==================')
-print(' * mal_user_id =',mal_user_id)
-print(' * mal_user =',mal_user)
+print(' * mal_user_id =',mal_user_id_15)
+print(' * mal_user =',mal_user_15)
 # print('mal_vehicle_num_15 =',mal_vehicle_num_15)
 
 target_15, find_num_15, find_15 = carTrust(mal_vehicle_num_15)
@@ -887,10 +974,11 @@ accuracy_15, precision_15, recall_15, f1_15 = make_performance(mal_vehicle_15, f
 
 
 ############################ 20 ############################
-mal_user_id, mal_user, mal_vehicle_num_20, mal_vehicle_20 = make_mal(origin_v_list, 20)
+mal_user_id_20, mal_user_20, mal_vehicle_num_20, mal_vehicle_20 = make_mal(origin_v_list, 20)
+make_mixed_data(reporters, original_data, mal_user_20)
 print('==================20==================')
-print(' * mal_user_id =',mal_user_id)
-print(' * mal_user =',mal_user)
+print(' * mal_user_id =',mal_user_id_20)
+print(' * mal_user =',mal_user_20)
 # print('mal_vehicle_num_20 =',mal_vehicle_num_20)
 
 target_20, find_num_20, find_20 = carTrust(mal_vehicle_num_20)
@@ -909,12 +997,7 @@ f1_list = [f1_5, f1_10, f1_15, f1_20]
 
 make_chart(mal_v_num, accuracy_list, precision_list, recall_list, f1_list)
 
-def make_performance_table(accuracy_list, precision_list, recall_list, f1_list):
-    avg_accuracy = round(sum(accuracy_list)/len(accuracy_list),2)
-    avg_precision = round(sum(precision_list)/len(precision_list),2)
-    avg_recall = round(sum(recall_list)/len(recall_list),2)
-    avg_f1 = round(sum(f1_list)/len(f1_list),2)
-    return avg_accuracy, avg_precision, avg_recall, avg_f1
+
 
 ac, pr, re, f1 = make_performance_table(accuracy_list, precision_list, recall_list, f1_list)
 print('accuracy_avg = ', ac)

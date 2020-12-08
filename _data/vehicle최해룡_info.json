@@ -1,0 +1,72 @@
+{
+  "__Vehicle__": {
+    "vid": "106",
+    "user": "\ucd5c\ud574\ub8e1",
+    "social_activities": {
+      "info": {
+        "response": 10,
+        "received_data": 10,
+        "not_used_data": 2,
+        "redistributed_data": 10
+      },
+      "scoring": 1.0,
+      "ignoring": 0.2,
+      "sharing": 1.0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"<\uae34\uae09> \ub9e4\uc18c\ud640\ub85c \uc804\uc7ac\uc6b8\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubb38\ud559\uacbd\uae30\uc7a5\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ubb38\ud559\uacbd\uae30\uc7a5\uc0ac\uac70\ub9ac 200m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 \ud558\uc704\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uac04 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \ud604\uc7ac \uc0ac\uace0\ucc98\ub9ac \ud558\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758\uc694\ub9dd.\"",
+          "score": 1.0,
+          "createdTime": [
+            "2020-04-16",
+            "15:22"
+          ],
+          "GPS": "37.43889280240453,126.6975453373844",
+          "vid": "106"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 5\uc6d4 9\uc77c\uae4c\uc9c0 \uc5f0\uc218\uad6c \uc575\uace0\uac1c\ub85c \uc678 2\uac1c\uc18c\uc5d0\uc11c \uc7ac\ub09c\ub300\ube44 \ub3c4\ub85c \uc720\uc9c0 \ubcf4\uc218\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 0.99,
+          "createdTime": [
+            "2020-04-14",
+            "17:56"
+          ],
+          "GPS": "37.408812589080455,126.64720221408452",
+          "vid": "60"
+        },
+        {
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \ubb38\ud559\uacbd\uae30\uc7a5\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ubb38\ud559\uacbd\uae30\uc7a5\uc0ac\uac70\ub9ac \uc9c0\ub098\uc790\ub9c8\uc790 1\ucc28\ub85c\uc5d0\uc11c 3\uc911 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \ud604\uc7ac \uc0ac\uace0 \ucc98\ub9ac \uc911.\"",
+          "score": 0.99,
+          "createdTime": [
+            "2020-05-11",
+            "09:54"
+          ],
+          "GPS": "37.43892688009497,126.69502818681752",
+          "vid": "60"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 5.0,
+      "AS": 2.0,
+      "NT": 4694.94,
+      "UR": 7.0,
+      "VT": 281.28999999999996,
+      "connectivity": 260.83,
+      "CF": 9,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "60",
+        "VT": 0,
+        "position": 260.83,
+        "updateTime": 0
+      }
+    ]
+  }
+}

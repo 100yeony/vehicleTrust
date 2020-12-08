@@ -1,0 +1,112 @@
+{
+  "__Vehicle__": {
+    "vid": "56",
+    "user": "\uc591\uc21c\uc131",
+    "social_activities": {
+      "info": {
+        "response": 9,
+        "received_data": 10,
+        "not_used_data": 2,
+        "redistributed_data": 10
+      },
+      "scoring": 0.9,
+      "ignoring": 0.2,
+      "sharing": 1.0
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 4\uc6d4 20\uc77c\ubd80\ud130 21\uc77c\uae4c\uc9c0 \uacbd\uba85\ub300\ub85c \uc6a9\uc885\uad50 \ubd80\uadfc\uacfc \uc11c\uc6b4\uc77c\ubc18\uc0b0\uc5c5\ub2e8\uc9c0 \uc785\uad6c\ubd80\uadfc, \uc11c\ubd80\uac04\uc120\ub85c \uc2e0\ub300\ucd08\ub4f1\ud559\uad50 \ubd80\uadfc\uc5d0\uc11c \uc7ac\ub09c\ub300\ube44 \ub3c4\ub85c \uc720\uc9c0 \ubcf4\uc218\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568. \uc791\uc5c5 \uc2dc\uac04\uc740 \ubc24 9\uc2dc\ubd80\ud130 \ub2e4\uc74c\ub0a0 \uc544\uce68 7\uc2dc\uae4c\uc9c0\uc774\ub2c8 \ucc38\uace0 \ubc14\ub78c.\"",
+          "score": 0.9,
+          "createdTime": [
+            "2020-04-14",
+            "09:49"
+          ],
+          "GPS": "37.544495363312286,126.74545682317604",
+          "vid": "56"
+        },
+        {
+          "contents": "\uc218\ubcc0\ub85c \ubd80\uac1c\uace0\uac00\uad50\uc5d0\uc11c \ubd80\uac1c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 0.9,
+          "createdTime": [
+            "2020-05-02",
+            "16:09"
+          ],
+          "GPS": "37.48996450798143,126.74027660945588",
+          "vid": "56"
+        },
+        {
+          "contents": "\uc218\ubcc0\ub85c \ubd80\uac1c\uace0\uac00\uad50\uc5d0\uc11c \ubd80\uac1c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
+          "score": 0.9,
+          "createdTime": [
+            "2020-05-06",
+            "09:50"
+          ],
+          "GPS": "37.48996450798143,126.74027660945588",
+          "vid": "56"
+        },
+        {
+          "contents": "\uc218\ubcc0\ub85c \ubd80\uac1c\uace0\uac00\uad50\uc5d0\uc11c \ubd80\uac1c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88. \ubc18\ub300\ubc29\ud5a5 \uc18c\ud1b5 \uc6d0\ud65c.",
+          "score": 0.9,
+          "createdTime": [
+            "2020-05-08",
+            "07:53"
+          ],
+          "GPS": "37.48996450798143,126.74027660945588",
+          "vid": "56"
+        },
+        {
+          "contents": "\"\uc218\ubcc0\ub85c \ubd80\ud3c9\ubb38\ud654\ub85c\uad50\ucc28\uc810\uc5d0\uc11c \ubd80\uac1c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \uc138\ubc88. \ubc18\ub300\ubc29\ud5a5, \uc18c\ud1b5 \uc6d0\ud65c.\"",
+          "score": 0.9,
+          "createdTime": [
+            "2020-05-08",
+            "11:37"
+          ],
+          "GPS": "37.493380557342675,126.74084148538697",
+          "vid": "56"
+        },
+        {
+          "contents": "\"\uacbd\uc778\ub85c \uad6c\uc0b0\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc1a1\ub0b4\ub098\ub4e4\ubaa9\uad6c\uac04, \uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \uc9c4\uc785\ucc28\ub7c9\ub4e4 \uc815\uccb4\ub418\uace0, \uc774\ud6c4\ub85c \ubd80\uac1c\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc18c\ud1b5 \uc6d0\ud65c. \ubc18\ub300\ubc29\ud5a5\ub3c4 \uad6c\uc0b0\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc1a1\ub0b4\ub098\ub4e4\ubaa9\uad6c\uac04, \uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \uc9c4\uc785\ucc28\ub7c9\ub4e4\uc774 \uc9c0\uccb4.\"",
+          "score": 0.9,
+          "createdTime": [
+            "2020-05-23",
+            "10:38"
+          ],
+          "GPS": "37.48342598283663,126.75312922136534",
+          "vid": "56"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) \uc639\uc9c4\uad70 \uc601\ud765\uba74 \uc120\uc7ac\ub9ac 398-10 \uc77c\uc6d0\uc5d0\uc11c \ub0b4\uc77c \uc624\uc804 9\uc2dc\ubd80\ud130 \uc624\ud6c4 4\uc2dc\uae4c\uc9c0 \uc218\ub3c4 \uc124\ube44 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
+          "score": 0.72,
+          "createdTime": [
+            "2020-04-16",
+            "08:40"
+          ],
+          "GPS": "37.245800690175436,126.52643066942325",
+          "vid": "35"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 5.0,
+      "AS": 1.9,
+      "NT": 7.510701325387146e+17,
+      "UR": 6.9,
+      "VT": 2276485091.06,
+      "connectivity": 4.941250871965228e+16,
+      "CF": 8,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "35",
+        "VT": 0,
+        "position": 4.941250871965228e+16,
+        "updateTime": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "__Vehicle__": {
+    "vid": "10",
+    "user": "\uc548\uc131\ub355",
+    "social_activities": {
+      "info": {
+        "response": 8,
+        "received_data": 9,
+        "not_used_data": 1,
+        "redistributed_data": 8
+      },
+      "scoring": 0.89,
+      "ignoring": 0.11,
+      "sharing": 0.89
+    },
+    "VDI": {
+      "createdData": [
+        {
+          "contents": "\"<\uae34\uae09> \uacf5\ud56d\ub85c \uc778\ucc9c\uad6d\uc81c\uacf5\ud56d \uc81c1\uc5ec\uac1d\ud130\ubbf8\ub110 \uc785\uad6c\uc5d0\uc11c \uc774\uc5b4\uc9c0\ub294 \uc778\ucc9c\uad6d\uc81c\uacf5\ud56d\uace0\uc18d\ub3c4\ub85c \uc2e0\ubd88\ub098\ub4e4\ubaa9\ubc29\ud5a5, \uc778\ucc9c\uacf5\ud56d \uc81c1\uc5ec\uac1d\ud130\ubbf8\ub110 \uc785\uad6c \uc57d 2Km \uc9c0\ub09c \uc9c0\uc810 3,4\ucc28\ub85c\uc5d0 \uac78\uccd0 \ubc84\uc2a4\uac04 \ucda9\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \ud604\uc7ac \uc0ac\uace0\ucc98\ub9ac \ud558\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758\uc694\ub9dd.\"",
+          "score": 0.79,
+          "createdTime": [
+            "2020-01-27",
+            "08:12"
+          ],
+          "GPS": "37.44869696071711,126.45235000981565",
+          "vid": "10"
+        }
+      ],
+      "receivedData": [
+        {
+          "contents": "<\uae34\uae09> \uacbd\uba85\ub300\ub85c\uc640 \uacc4\uc591\ub300\ub85c\uac00 \ub9cc\ub098\ub294 \uacc4\uc0b0\uc0bc\uac70\ub9ac \ub0b4 3\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uc640 \ud0dd\uc2dc\uac04 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758 \uc694\ub9dd.",
+          "score": 1.11,
+          "createdTime": [
+            "2020-05-12",
+            "07:49"
+          ],
+          "GPS": "37.54355235862226,126.72279790000158",
+          "vid": "29"
+        }
+      ]
+    },
+    "VTI": {
+      "DR": 9.09,
+      "AS": 1.78,
+      "NT": 3419200752664.96,
+      "UR": 10.87,
+      "VT": 6096550.79,
+      "connectivity": 213433255472.22,
+      "CF": 9,
+      "VT_updateTime": 0,
+      "PVT": 0
+    },
+    "RTI": [
+      {
+        "vid": "29",
+        "VT": 0,
+        "position": 213433255472.22,
+        "updateTime": 0
+      }
+    ]
+  }
+}
