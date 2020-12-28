@@ -4,10 +4,10 @@
     "user": "\ud64d\ud765\ud45c",
     "social_activities": {
       "info": {
-        "response": 1,
-        "received_data": 9,
-        "not_used_data": 9,
-        "redistributed_data": 1
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
       },
       "scoring": 0,
       "ignoring": 0,
@@ -16,45 +16,38 @@
     "VDI": {
       "createdData": [
         {
-          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 29\uc77c\uae4c\uc9c0, \uc11c\uad6c \uac00\uc815\ub3d9 499-1, 5-96 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\uace0\uc18d\ub3c4\ub85c \uc11c\uc6b8\ubc29\ud5a5, \uc11c\uc778\ucc9c\ub098\ub4e4\ubaa9 1Km \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 1\ucc28\ub85c\uc5d0\uc11c \ud654\ubb3c\ucc28 \uad00\ub828 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098 \ud604\uc7ac \ucc98\ub9ac\uc791\uc5c5 \uc911.\"",
           "score": 1,
           "createdTime": [
-            "2020-05-25",
-            "10:54"
+            "2020-05-19",
+            "08:53"
           ],
-          "GPS": "37.47919412307878,126.7107125011288",
-          "vid": "114"
+          "GPS": "37.52348023441721,126.6909766817946",
+          "vid": "113"
         }
       ],
-      "receivedData": [
-        {
-          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubb38\ud559\uacbd\uae30\uc7a5\uc0ac\uac70\ub9ac\uad6c\uac04, \ubb38\ud559\uacbd\uae30\uc7a5\uc0ac\uac70\ub9ac \uc815\uc9c0\uc120 \ud558\uc704\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uac04 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c.\"",
-          "score": 1,
-          "createdTime": [
-            "2020-05-22",
-            "11:11"
-          ],
-          "GPS": "37.42321206799802,126.69809420793446",
-          "vid": "73"
-        }
-      ]
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
     },
     "VTI": {
       "DR": 1,
       "AS": 1,
-      "NT": 1115.14,
+      "NT": 3316206527741452.5,
       "UR": 1,
-      "VT": 20.2,
-      "connectivity": 557.57,
-      "CF": 2,
+      "VT": 57586613.42,
+      "connectivity": 663241305548290.5,
+      "CF": 5,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "73",
+        "vid": "35",
         "VT": 0,
-        "position": 557.57,
+        "position": 663241305548290.5,
         "updateTime": 0
       }
     ]

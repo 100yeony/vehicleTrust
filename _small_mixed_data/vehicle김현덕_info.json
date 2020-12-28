@@ -16,14 +16,14 @@
     "VDI": {
       "createdData": [
         {
-          "contents": "\uacbd\uc6d0\ub300\ub85c \uc2e0\ucd0c\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubd80\ud3c9\uacf5\uc6d0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc11c\ud589.",
+          "contents": "\"\ub3c5\ubc30\ub85c \uc6a9\ud604\uc0ac\uac70\ub9ac\uc5d0\uc11c \uad50\ud1b5\ubc29\uc1a1\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc815\uccb4 \uc2ec\ud568.\"",
           "score": 0,
           "createdTime": [
-            "2020-05-25",
-            "10:54"
+            "2020-04-28",
+            "18:21"
           ],
-          "GPS": "37.47919412307878,126.7107125011288",
-          "vid": "34"
+          "GPS": "37.45623226533857,126.6500368595626",
+          "vid": "33"
         }
       ],
       "receivedData": {

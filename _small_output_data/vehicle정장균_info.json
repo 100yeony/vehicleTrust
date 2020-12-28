@@ -4,10 +4,10 @@
     "user": "\uc815\uc7a5\uade0",
     "social_activities": {
       "info": {
-        "response": 10,
-        "received_data": 10,
-        "not_used_data": 2,
-        "redistributed_data": 9
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
       },
       "scoring": 0,
       "ignoring": 0,
@@ -1086,45 +1086,28 @@
           "vid": "92"
         }
       ],
-      "receivedData": [
-        {
-          "contents": "\ub0b4\uc6a9",
-          "score": 1,
-          "createdTime": [
-            "\uc811\uc218\uc77c",
-            "\uc2dc\uac04"
-          ],
-          "GPS": "PS(\ud3ec\uc778\ud2b8 \uc9d1",
-          "vid": "97"
-        },
-        {
-          "contents": "\ub0b4\uc6a9",
-          "score": 1,
-          "createdTime": [
-            "\uc811\uc218\uc77c",
-            "\uc2dc\uac04"
-          ],
-          "GPS": "PS(\ud3ec\uc778\ud2b8 \uc9d1",
-          "vid": "97"
-        }
-      ]
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
     },
     "VTI": {
       "DR": 1,
       "AS": 1,
-      "NT": Infinity,
+      "NT": 4.71,
       "UR": 1,
-      "VT": Infinity,
-      "connectivity": Infinity,
-      "CF": 4,
+      "VT": 102.17,
+      "connectivity": 4.71,
+      "CF": 1,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "97",
+        "vid": "66",
         "VT": 0,
-        "position": Infinity,
+        "position": 4.71,
         "updateTime": 0
       }
     ]

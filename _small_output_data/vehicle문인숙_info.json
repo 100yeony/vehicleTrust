@@ -4,10 +4,10 @@
     "user": "\ubb38\uc778\uc219",
     "social_activities": {
       "info": {
-        "response": 8,
-        "received_data": 9,
-        "not_used_data": 1,
-        "redistributed_data": 10
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
       },
       "scoring": 0,
       "ignoring": 0,
@@ -46,35 +46,28 @@
           "vid": "40"
         }
       ],
-      "receivedData": [
-        {
-          "contents": "\"<\uae34\uae09> \uacbd\ubd80\uace0\uc18d\ub3c4\ub85c \uc11c\uc6b8\ubc29\ud5a5, \uc11c\uc6b8\uc694\uae08\uc18c 3.7Km \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 \uac13\uae38\uc5d0\uc11c \uc0ac\uace0\ucc98\ub9ac \uc911. \uc774 \uc5ec\ud30c\ub85c \ucc28\ub7c9\ub4e4 \uc815\uccb4.\"",
-          "score": 1,
-          "createdTime": [
-            "2020-01-18",
-            "17:02"
-          ],
-          "GPS": "37.36627889194582,127.10341724803654",
-          "vid": "21"
-        }
-      ]
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
     },
     "VTI": {
       "DR": 1,
       "AS": 1,
-      "NT": 2222567533714217.0,
+      "NT": 1219.8,
       "UR": 1,
-      "VT": 47144214.52,
-      "connectivity": 370427922285702.8,
-      "CF": 6,
+      "VT": 134.93,
+      "connectivity": 304.95,
+      "CF": 4,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "21",
+        "vid": "107",
         "VT": 0,
-        "position": 370427922285702.8,
+        "position": 304.95,
         "updateTime": 0
       }
     ]

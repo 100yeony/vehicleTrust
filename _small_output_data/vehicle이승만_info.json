@@ -4,10 +4,10 @@
     "user": "\uc774\uc2b9\ub9cc",
     "social_activities": {
       "info": {
-        "response": 8,
-        "received_data": 10,
-        "not_used_data": 2,
-        "redistributed_data": 10
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
       },
       "scoring": 0,
       "ignoring": 0,
@@ -16,65 +16,38 @@
     "VDI": {
       "createdData": [
         {
-          "contents": "\"<\uae34\uae09> \uae38\uc8fc\ub85c \uad74\ud3ec\ucc9c\uc5ed\uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \ubd80\ud3c9\uad6c\uccad\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uad74\ud3ec\ucc9c\uc5ed\uc9c0\ud558\ucc28\ub3c4 \ub098\uc624\uc790\ub9c8\uc790 1\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uad00\ub828 5\uc911 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098 \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c.\"",
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) \uc11c\uad6c \uc2ec\uace1\ub3d9 63-15, \ubc31\uc11d\ub3d9 \uc0b026-15 \uc77c\uc6d0\uc5d0\uc11c 8\uc6d4 26\uc77c\uae4c\uc9c0 \ub178\ud6c4\uad00 \uad50\uccb4 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
           "score": 1,
           "createdTime": [
-            "2020-02-18",
-            "20:20"
+            "2020-05-25",
+            "10:54"
           ],
-          "GPS": "37.50713155813628,126.72855370137842",
-          "vid": "71"
-        },
-        {
-          "contents": "\"\uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \ud310\uad50\ubc29\ud5a5, \uacc4\uc591\ub098\ub4e4\ubaa9\uc5d0\uc11c \uc1a1\ub0b4\ub098\ub4e4\ubaa9\uad6c\uac04 \uc815\uccb4.\"",
-          "score": 1,
-          "createdTime": [
-            "2020-04-28",
-            "16:32"
-          ],
-          "GPS": "37.543917096472676,126.74890437852855",
-          "vid": "71"
+          "GPS": "37.47919412307878,126.7107125011288",
+          "vid": "72"
         }
       ],
-      "receivedData": [
-        {
-          "contents": "<\uae34\uae09> \uc11d\uc815\ub85c \uc22d\uc758\uc2dc\uc7a5\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub0a8\ubd80\uc5ed\uc0bc\uac70\ub9ac\uad6c\uac04 \uc22d\uc758\ub85c\ud130\ub9ac \uc9c0\ub098\uc790\ub9c8\uc790 1\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc694\uc544\uac04 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758\uc694\ub9dd.",
-          "score": 1,
-          "createdTime": [
-            "2020-02-22",
-            "10:29"
-          ],
-          "GPS": "37.46686051342761,126.64579074461867",
-          "vid": "43"
-        },
-        {
-          "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \uc5f0\uc218\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\ub9c9\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac \ubd80\uadfc 4\ucc28\ub85c\uc5d0 \uc2b9\uc6a9\ucc28\uac00 \uace0\uc7a5\uc73c\ub85c \uc138\uc6cc\uc838 \uc788\uc74c.\"",
-          "score": 1,
-          "createdTime": [
-            "2020-04-17",
-            "18:05"
-          ],
-          "GPS": "37.4037794603939,126.67929353393767",
-          "vid": "43"
-        }
-      ]
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
     },
     "VTI": {
       "DR": 1,
       "AS": 1,
-      "NT": 5248.62,
+      "NT": 2.0,
       "UR": 1,
-      "VT": 172.45,
-      "connectivity": 5248.62,
-      "CF": 1,
+      "VT": 4.21,
+      "connectivity": 1.0,
+      "CF": 2,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "43",
+        "vid": "69",
         "VT": 0,
-        "position": 5248.62,
+        "position": 1.0,
         "updateTime": 0
       }
     ]

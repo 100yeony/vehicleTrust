@@ -4,10 +4,10 @@
     "user": "\uae40\uc6a9\ud638",
     "social_activities": {
       "info": {
-        "response": 9,
-        "received_data": 9,
-        "not_used_data": 1,
-        "redistributed_data": 9
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
       },
       "scoring": 0,
       "ignoring": 0,
@@ -56,45 +56,28 @@
           "vid": "23"
         }
       ],
-      "receivedData": [
-        {
-          "contents": "\uacbd\uc6d0\ub300\ub85c \uad74\ub2e4\ub9ac\uc624\uac70\ub9ac\uc5d0\uc11c \ubd80\ud3c9\uc5ed\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc18d\ub3c4 \uc904\uc5ec \uc9c0\ub0a8.",
-          "score": 1,
-          "createdTime": [
-            "2020-02-15",
-            "19:48"
-          ],
-          "GPS": "37.491010358659594,126.72953927266583",
-          "vid": "111"
-        },
-        {
-          "contents": "(\uacf5\uc0ac\uc548\ub0b4) 5\uc6d4 5\uc77c\uae4c\uc9c0 \uacbd\uc778\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\ucd9c\uad6c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \ucc28\ub85c\ub97c \ubd80\ubd84 \ud1b5\uc81c\ud558\uace0 \uad50\ud1b5 \uac1c\uc120 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568. \uc774\ub85c\uc778\ud574 \uc8fc\ubcc0\ub3c4\ub85c \uc815\uccb4\uac00 \uc608\uc0c1\ub418\ub2c8 \ubbf8\ub9ac \uc6b0\ud68c\ud574\uc11c \uc6b4\ud589 \ubc14\ub78c.",
-          "score": 1,
-          "createdTime": [
-            "2020-04-14",
-            "16:56"
-          ],
-          "GPS": "37.46203412334107,126.67179671889193",
-          "vid": "111"
-        }
-      ]
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
     },
     "VTI": {
       "DR": 1,
       "AS": 1,
-      "NT": 5065.3,
+      "NT": 395829663905995.5,
       "UR": 1,
-      "VT": 171.17000000000002,
-      "connectivity": 506.53,
+      "VT": 19895568.43,
+      "connectivity": 39582966390599.55,
       "CF": 10,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "111",
+        "vid": "88",
         "VT": 0,
-        "position": 506.53,
+        "position": 39582966390599.55,
         "updateTime": 0
       }
     ]

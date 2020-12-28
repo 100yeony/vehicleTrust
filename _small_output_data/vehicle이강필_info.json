@@ -4,10 +4,10 @@
     "user": "\uc774\uac15\ud544",
     "social_activities": {
       "info": {
-        "response": 8,
-        "received_data": 9,
-        "not_used_data": 3,
-        "redistributed_data": 10
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
       },
       "scoring": 0,
       "ignoring": 0,
@@ -36,35 +36,28 @@
           "vid": "66"
         }
       ],
-      "receivedData": [
-        {
-          "contents": "\"<\uae34\uae09> \uc11c\uc6b8\uc2dc \uc62c\ub9bc\ud53d\ub300\ub85c \uae40\ud3ec\ubc29\ud5a5, \ub3d9\uc791\ub300\uad50\uc5d0\uc11c \ud55c\uac15\ub300\uad50\uad6c\uac04 2\ucc28\ub85c\uc5d0\uc11c \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c.\"",
-          "score": 1,
-          "createdTime": [
-            "2020-05-25",
-            "10:54"
-          ],
-          "GPS": "37.47919412307878,126.7107125011288",
-          "vid": "82"
-        }
-      ]
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
     },
     "VTI": {
       "DR": 1,
       "AS": 1,
-      "NT": 54.27,
+      "NT": 32.97,
       "UR": 1,
-      "VT": 107.37,
-      "connectivity": 6.03,
-      "CF": 9,
+      "VT": 105.74,
+      "connectivity": 4.71,
+      "CF": 7,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "81",
+        "vid": "92",
         "VT": 0,
-        "position": 6.03,
+        "position": 4.71,
         "updateTime": 0
       }
     ]

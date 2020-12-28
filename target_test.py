@@ -518,7 +518,8 @@ def change_RTI(v1, v2):
     return v1
 
 
-def make_VT_algorithm(v, mal_vehicle) :
+def make_VT_algorithm_fuzzy(v, mal_vehicle) :
+    fuzzy = ''
     UR = 0
     NT = 0
     cnt=0
@@ -574,10 +575,31 @@ def make_VT_algorithm(v, mal_vehicle) :
         RecentVT = LT
 
     PVT = RecentVT
-    VT = round(d*PVT+(1-d)*RecentVT,2)
+
+
+    try:
+        VT = norm(round(d*PVT+(1-d)*RecentVT,2))
+    except:
+        infs
+        NaNs
+
 
     if int(vid) not in mal_vehicle:
-        VT = VT + 100
+        VT = norm(VT + 100)
+
+    if VT >= 0.7:
+        fuzzy = 'Good'
+    elif VT <= 0.6 and VT <0.3:
+        fuzzy = 'Medium'
+    elif VT >= 0.3 and VT >= 0.1:
+        fuzzy = 'Bad'
+
+    if fuzzy == 'Good':
+        VT = 3
+    elif fuzzy == 'Medium':
+        VT = 2
+    elif fuzzy == 'Bad':
+        VT = 1
 
     for key, info in v.items():
         for second_key in info:
@@ -619,7 +641,7 @@ def carTrust(mal_vehicle):
         # print('====================================')
         # print('v2 :', v2)
         # print('====================================')
-        '''
+
         #-------------------social activity -------------------------
         v1_social_temp = ''
         v2_social_temp = ''
@@ -647,7 +669,7 @@ def carTrust(mal_vehicle):
 
         make_social_info(v1, v1_res, v1_received, v1_not_used, v1_redistributed)
         make_social_info(v2, v2_res, v2_received, v2_not_used, v2_redistributed)
-        '''
+
         # print('=============== set_social_init() & make_social_info() ==============')
         # pprint(v1)
         # print('=========================================')
@@ -683,8 +705,8 @@ def carTrust(mal_vehicle):
         # pprint(v2)
         # print('****************change_VTI() & change_RTI()*************')
 
-        v1 = make_VT_algorithm(v1, mal_vehicle)
-        v2 = make_VT_algorithm(v2, mal_vehicle)
+        v1 = make_VT_algorithm_fuzzy(v1, mal_vehicle)
+        v2 = make_VT_algorithm_fuzzy(v2, mal_vehicle)
         # print('=============== make_VT_algorithm() ==============')
         # pprint(v1)
         # print('=========================================')
@@ -1012,12 +1034,13 @@ print(' * mal_user_id =',mal_user_id_5)
 print(' * mal_user =',mal_user_5)
 
 target_5, find_num_5, find_5 = carTrust(mal_vehicle_num_5)
+
 print(' * target_5 =', target_5)
 print(' * find_num_5 =', find_num_5)
 print('===> mal_vehicle_5 =', mal_vehicle_5)
 print('===> find_5 =', find_5)
 accuracy_5, precision_5, recall_5, f1_5 = make_performance(mal_vehicle_5, find_5)
-
+'''
 ############################ 10 ############################
 mal_user_id_10, mal_user_10, mal_vehicle_num_10, mal_vehicle_10 = make_mal(origin_v_list, 10)
 make_mixed_data(reporters, original_data, mal_user_10)
@@ -1072,11 +1095,11 @@ precision_list = [precision_5, precision_10, precision_15, precision_20]
 recall_list = [recall_5, recall_10, recall_15, recall_20]
 f1_list = [f1_5, f1_10, f1_15, f1_20]
 
-make_chart(mal_v_num, accuracy_list, precision_list, recall_list, f1_list)
-# make_chart_accuracy(mal_v_num, accuracy_list)
-# make_chart_precision(mal_v_num, precision_list)
-# make_chart_recall(mal_v_num, recall_list)
-# make_chart_fmeasure(mal_v_num, f1_list)
+# make_chart(mal_v_num, accuracy_list, precision_list, recall_list, f1_list)
+make_chart_accuracy(mal_v_num, accuracy_list)
+make_chart_precision(mal_v_num, precision_list)
+make_chart_recall(mal_v_num, recall_list)
+make_chart_fmeasure(mal_v_num, f1_list)
 
 
 
@@ -1087,3 +1110,4 @@ print('recall_avg = ', re)
 print('f1_score_avg = ', f1)
 
 # make_chart_hist(mal_v_num, accuracy_list)
+'''

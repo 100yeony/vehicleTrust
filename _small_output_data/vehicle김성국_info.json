@@ -4,10 +4,10 @@
     "user": "\uae40\uc131\uad6d",
     "social_activities": {
       "info": {
-        "response": 9,
-        "received_data": 10,
-        "not_used_data": 3,
-        "redistributed_data": 9
+        "response": 0,
+        "received_data": 0,
+        "not_used_data": 0,
+        "redistributed_data": 0
       },
       "scoring": 0,
       "ignoring": 0,
@@ -226,35 +226,28 @@
           "vid": "14"
         }
       ],
-      "receivedData": [
-        {
-          "contents": "\"<\uae34\uae09> \uacf5\ud56d\ub85c \uc778\ucc9c\uad6d\uc81c\uacf5\ud56d \uc81c1\uc5ec\uac1d\ud130\ubbf8\ub110 \uc785\uad6c\uc5d0\uc11c \uc774\uc5b4\uc9c0\ub294 \uc778\ucc9c\uad6d\uc81c\uacf5\ud56d\uace0\uc18d\ub3c4\ub85c \uc2e0\ubd88\ub098\ub4e4\ubaa9\ubc29\ud5a5, \uc778\ucc9c\uacf5\ud56d \uc81c1\uc5ec\uac1d\ud130\ubbf8\ub110 \uc785\uad6c \uc57d 2Km \uc9c0\ub09c \uc9c0\uc810 3,4\ucc28\ub85c\uc5d0 \uac78\uccd0 \ubc84\uc2a4\uac04 \ucda9\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \ud604\uc7ac \uc0ac\uace0\ucc98\ub9ac \ud558\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758\uc694\ub9dd.\"",
-          "score": 1,
-          "createdTime": [
-            "2020-01-27",
-            "08:12"
-          ],
-          "GPS": "37.44869696071711,126.45235000981565",
-          "vid": "53"
-        }
-      ]
+      "receivedData": {
+        "contents": [],
+        "score": 0,
+        "createdTime": 0
+      }
     },
     "VTI": {
       "DR": 1,
       "AS": 1,
-      "NT": 9603407334800818.0,
+      "NT": 2123947640.52,
       "UR": 1,
-      "VT": 97997076.15,
-      "connectivity": 2400851833700204.5,
-      "CF": 4,
+      "VT": 46186.31,
+      "connectivity": 707982546.84,
+      "CF": 3,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "53",
+        "vid": "60",
         "VT": 0,
-        "position": 2400851833700204.5,
+        "position": 707982546.84,
         "updateTime": 0
       }
     ]
