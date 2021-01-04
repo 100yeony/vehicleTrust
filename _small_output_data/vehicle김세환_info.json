@@ -4,20 +4,20 @@
     "user": "\uae40\uc138\ud658",
     "social_activities": {
       "info": {
-        "response": 0,
-        "received_data": 0,
-        "not_used_data": 0,
-        "redistributed_data": 0
+        "response": 10,
+        "received_data": 10,
+        "not_used_data": 1,
+        "redistributed_data": 9
       },
-      "scoring": 0,
-      "ignoring": 0,
-      "sharing": 0
+      "scoring": 1.0,
+      "ignoring": 0.1,
+      "sharing": 0.9
     },
     "VDI": {
       "createdData": [
         {
           "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\ub85c \ubd80\uac1c\uc0ac\uac70\ub9ac\uc5d0\uc11c \uad6c\uc0b0\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uad6c\uc0b0\uc0ac\uac70\ub9ac 300m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810 \ucda9\uc804\uc18c \uc55e 2\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uad00\ub828 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c.\"",
-          "score": 1,
+          "score": 0.9,
           "createdTime": [
             "2020-05-25",
             "09:55"
@@ -26,28 +26,65 @@
           "vid": "16"
         }
       ],
-      "receivedData": {
-        "contents": [],
-        "score": 0,
-        "createdTime": 0
-      }
+      "receivedData": [
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 4\uc6d4 23\uc77c\uae4c\uc9c0, \uc911\uad6c \uc6b4\uc11c\ub3d9 2706-1\ubc88\uc9c0 \uc77c\uc6d0\uc5d0\uc11c \ubc38\ube0c\uad50\uccb4 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "score": 1.11,
+          "createdTime": [
+            "2020-04-14",
+            "10:38"
+          ],
+          "GPS": "37.497468333368666,126.49382118425133",
+          "vid": "95"
+        },
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) \uacbd\ubd80\uace0\uc18d\ub3c4\ub85c \ubd80\uc0b0\ubc29\ud5a5, \uae30\ud765\ub098\ub4e4\ubaa9 \uc77c\ub300 \uc0c1\uc2b5\uc815\uccb4\ub97c \ud574\uc18c\ud558\uae30 \uc704\ud574 \ub3d9\ud0c4\ubc29\uba74\uc73c\ub85c \uc6b0\ud68c\ub3c4\ub85c\ub97c \uac74\uc124\ud568. 7\uc6d4 \ub9d0 \uac1c\ud1b5 \uc608\uc815\uc774\uace0, \uc774 \uc6b0\ud68c\ub3c4\ub85c\uac00 \uc644\uc131\ub418\uba74 \uace0\uc18d\ub3c4\ub85c\uc5d0\uc11c \ub098\uc628 \ucc28\ub7c9\uc774 \uc694\uae08\uc18c\ub97c \ud1b5\uacfc\ud558\uc9c0 \uc54a\uace0 \uc9c0\ubc29\ub3c4 318\ud638\uc120 \ub3d9\ud0c4\ucabd\uc73c\ub85c \ube60\uc9c8 \uc218 \uc788\uc73c\ub2c8 \ucc38\uace0\ubc14\ub78c.\"",
+          "score": 1.11,
+          "createdTime": [
+            "2020-04-15",
+            "09:31"
+          ],
+          "GPS": "37.222380656611406,127.10121486023642",
+          "vid": "95"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) \ubd80\ud3c9\uad6c\ub294 5\uc6d4\ub9d0\uae4c\uc9c0 \ubd80\ud3c9\uad6c \uad74\ud3ec\ucc9c \uc0b0\ucc45\ub85c\uc758 \uc57c\uac04 \uc548\uc804\uc0ac\uace0 \uc608\ubc29\uc744 \uc704\ud574 LED \uac00\ub85c\ub4f1 \uc124\uce58\uacf5\uc0ac\ub97c \uc2dc\ud589\ud568.",
+          "score": 1.11,
+          "createdTime": [
+            "2020-04-15",
+            "13:56"
+          ],
+          "GPS": "37.508488423311746,126.72310009504271",
+          "vid": "95"
+        },
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) \ubd80\ud3c9\uad6c\ub294 5\uc6d4\ub9d0\uae4c\uc9c0 \ubd80\ud3c9\uad6c \uad74\ud3ec\ucc9c \uc0b0\ucc45\ub85c\uc758 \uc57c\uac04 \uc548\uc804\uc0ac\uace0 \uc608\ubc29\uc744 \uc704\ud574 LED \uac00\ub85c\ub4f1 \uc124\uce58\uacf5\uc0ac\ub97c \uc2dc\ud589\ud568.",
+          "score": 1.11,
+          "createdTime": [
+            "2020-04-15",
+            "13:57"
+          ],
+          "GPS": "37.508488423311746,126.72310009504271",
+          "vid": "95"
+        }
+      ]
     },
     "VTI": {
-      "DR": 1,
-      "AS": 1,
-      "NT": 7038228125.13,
-      "UR": 1,
-      "VT": 83994.15,
-      "connectivity": 2346076041.71,
-      "CF": 3,
+      "DR": 10.0,
+      "AS": 1.9,
+      "NT": 49846742200.22,
+      "UR": 11.9,
+      "VT": 770279.35,
+      "connectivity": 2623512747.38,
+      "CF": 10,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "51",
+        "vid": "95",
         "VT": 0,
-        "position": 2346076041.71,
+        "position": 2623512747.38,
         "updateTime": 0
       }
     ]

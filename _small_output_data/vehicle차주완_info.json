@@ -4,20 +4,20 @@
     "user": "\ucc28\uc8fc\uc644",
     "social_activities": {
       "info": {
-        "response": 0,
-        "received_data": 0,
-        "not_used_data": 0,
-        "redistributed_data": 0
+        "response": 9,
+        "received_data": 9,
+        "not_used_data": 2,
+        "redistributed_data": 8
       },
-      "scoring": 0,
-      "ignoring": 0,
-      "sharing": 0
+      "scoring": 1.0,
+      "ignoring": 0.22,
+      "sharing": 0.89
     },
     "VDI": {
       "createdData": [
         {
           "contents": "\"\ub0a8\ub3d9\ub300\ub85c \uac04\uc11d\uc624\uac70\ub9ac\uc5d0\uc11c \uc11d\ucc9c\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uac04\uc11d\uc624\uac70\ub9ac\uc5ed 5\ubc88\ucd9c\uad6c \ubd80\uadfc\uc5d0\uc11c \ub204\uc218 \uacf5\uc0ac \uc911. \ud604\uc7ac \uc591\ubc29\ud5a5\uc73c\ub85c \ucc28\ub85c\uac00 \uc904\uc5b4\uc788\uc5b4 \ud63c\uc7a1\ud558\ub2c8 \ucc38\uace0\ubc14\ub78c. (\ub3d9\uc77c\uc81c\ubcf4)\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-20",
             "11:40"
@@ -27,7 +27,7 @@
         },
         {
           "contents": "\uc18c\ub798\ub85c \ub9cc\uc2183\uc9c0\uad6c\uc785\uad6c\uc0bc\uac70\ub9ac\uc5d0\uc11c \ub0a8\ub3d9\uad6c\uccad\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-20",
             "18:57"
@@ -37,7 +37,7 @@
         },
         {
           "contents": "\uc18c\ub798\ub85c \ub0a8\ub3d9\uad6c\uccad\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub9cc\uc218\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-20",
             "19:06"
@@ -47,7 +47,7 @@
         },
         {
           "contents": "\"\uacbd\uc6d0\ub300\ub85c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2b9\uae30\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc778\ucc9c\uace0\ub4f1\ud559\uad50 \uc9c0\ub098\uba74\uc11c \uc9c0\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-22",
             "15:48"
@@ -57,7 +57,7 @@
         },
         {
           "contents": "\"\uacbd\uc6d0\ub300\ub85c \ubb38\ud559\uacbd\uae30\uc7a5 \uc815\ubb38\uc5d0\uc11c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc18d\ub3c4 \uc904\uc5ec \uc9c0\ub0a8.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-25",
             "08:44"
@@ -67,7 +67,7 @@
         },
         {
           "contents": "\uc608\uc220\ub85c \ud130\ubbf8\ub110\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubb38\uc608\ud68c\uad00\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-25",
             "08:51"
@@ -77,7 +77,7 @@
         },
         {
           "contents": "\"\uacbd\uc6d0\ub300\ub85c \ubb38\ud559\uacbd\uae30\uc7a5 \uc815\ubb38\uc5d0\uc11c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc11c\ud589.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-26",
             "08:31"
@@ -87,7 +87,7 @@
         },
         {
           "contents": "\ub0a8\ub3d9\ub300\ub85c \uc11d\ucc9c\uc0ac\uac70\ub9ac\uc5d0\uc11c \uae38\ubcd1\uc6d0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-28",
             "07:03"
@@ -97,7 +97,7 @@
         },
         {
           "contents": "\"\ubb34\ub124\ubbf8\ub85c \ub300\uacf5\uc6d0 \uc55e \uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \uc7a5\uc218\ub098\ub4e4\ubaa9\uad6c\uac04, \uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \uc9c4\uc785\ucc28\ub7c9\ub4e4\uc774 \ub300\uacf5\uc6d0 \uc55e \uc9c0\ud558\ucc28\ub3c4 \uc785\uad6c\ubd80\ud130 \ud558\uc704 \ub450\uac1c\ucc28\ub85c\uc5d0\uc11c \uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-02-29",
             "12:07"
@@ -107,7 +107,7 @@
         },
         {
           "contents": "\uc778\uc8fc\ub300\ub85c \uc2b9\uae30\uc0ac\uac70\ub9ac\uc5d0\uc11c \uacbd\uc6d0\ub300\ub85c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\ucabd \uc88c\ud68c\uc804 \ucc28\ub7c9\ub4e4 \uc2e0\ud638 \ud55c\ubc88 \ubd80\uc871.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-03-02",
             "08:56"
@@ -117,7 +117,7 @@
         },
         {
           "contents": "(\uacf5\uc0ac\uc548\ub0b4) 5\uc6d4 5\uc77c\uae4c\uc9c0 \uacbd\uc778\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\ucd9c\uad6c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \ucc28\ub85c\ub97c \ubd80\ubd84 \ud1b5\uc81c\ud558\uace0 \uad50\ud1b5 \uac1c\uc120 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568. \uc774\ub85c\uc778\ud574 \uc8fc\ubcc0\ub3c4\ub85c \uc815\uccb4\uac00 \uc608\uc0c1\ub418\ub2c8 \ubbf8\ub9ac \uc6b0\ud68c\ud574\uc11c \uc6b4\ud589 \ubc14\ub78c.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-14",
             "16:39"
@@ -127,7 +127,7 @@
         },
         {
           "contents": "(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 23\uc77c\uae4c\uc9c0 \uc11c\uad6c \uc11d\ub0a8\ub3d9 484-4 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4 \ubc0f \ub2e4\ubc1c\uad00\ub85c \uc815\ube44\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-14",
             "18:24"
@@ -137,7 +137,7 @@
         },
         {
           "contents": "(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 23\uc77c\uae4c\uc9c0 \uc11c\uad6c \uc11d\ub0a8\ub3d9 484-4 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4 \ubc0f \ub2e4\ubc1c\uad00\ub85c \uc815\ube44\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-14",
             "18:25"
@@ -147,7 +147,7 @@
         },
         {
           "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 6\uc6d4 29\uc77c\uae4c\uc9c0 \uc11c\uad6c \uac00\uc815\ub3d9 499-1, 5-96 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-14",
             "18:49"
@@ -157,7 +157,7 @@
         },
         {
           "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) \uc11c\ud574\uc548\uace0\uc18d\ub3c4\ub85c \ubaa9\ud3ec\ubc29\ud5a5, \ubaa9\uac10\ub098\ub4e4\ubaa9\uc5d0\uc11c \uc870\ub0a8\ubd84\uae30\uc810\uad6c\uac04 5\ucc28\ub85c\uc5d0\uc11c \ubc29\uc74c\ubcbd \uc124\uce58\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568. \uc774 \uacf5\uc0ac\ub294 \ub0b4\ub144 \ub9d0\uae4c\uc9c0 \uacc4\uc18d\ub420 \uc608\uc815\uc784.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-16",
             "07:48"
@@ -167,7 +167,7 @@
         },
         {
           "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) \uc624\ub298 \uc624\ud6c4 6\uc2dc\uae4c\uc9c0 \ubd80\ucc9c\uc2dc \uace0\uac15\ub3d9 309-2, 309-9~11, 328 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568. \uc774\ub85c\uc778\ud574 \uae09\uc218\uacf5\uae09\uc774 \uc77c\uc2dc \uc911\ub2e8\ub418\ub2c8 \ucc38\uace0\ubc14\ub78c.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-16",
             "08:18"
@@ -177,7 +177,7 @@
         },
         {
           "contents": "[112\uc2e0\uace0] <\ucd5c\ucd08> \ubc31\ubc94\ub85c \uac04\uc11d\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub9cc\uc218\uc8fc\uacf5\uc0ac\uac70\ub9ac\uad6c\uac04 \ub9cc\uc218\uc8fc\uacf5\uc0ac\uac70\ub9ac \uc870\uae08 \ubabb \uac04 \uc9c0\uc810 \ud558\uc704\ucc28\ub85c\uc5d0\uc11c \uac00\ub85c\uc218 \uac00\uc9c0\uce58\uae30 \uc791\uc5c5 \uc911.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-16",
             "13:10"
@@ -187,7 +187,7 @@
         },
         {
           "contents": "\"<\uae34\uae09> \uc778\ucc9c\ub300\ub85c \uc778\ucc9c\ubc29\ud5a5, \uac00\uc88c\ub098\ub4e4\ubaa9 \ubd80\uadfc 1\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uac04 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098 \ud604\uc7ac \ucc98\ub9ac\uc791\uc5c5 \uc911. \ubd80\uadfc\uc5d0\uc11c \ubc00\ub9bc.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-17",
             "07:55"
@@ -197,7 +197,7 @@
         },
         {
           "contents": "\"<\ucd5c\ucd08> (\uacf5\uc0ac\uc548\ub0b4) 4\uc6d4 27\uc77c \uc624\ud6c4 2\uc2dc\ubd80\ud130 \uc624\ud6c4 4\uc2dc\uae4c\uc9c0, \uc11c\uad6c \uc655\uae38\ub3d9 488-1\ubc88\uc9c0 \uc77c\uc6d0, \uc655\uae38\ub3d9 \uac80\ub2e8\uc790\uc774 1.2\ub2e8\uc9c0\uc640 \ub4dc\ub9bc\ud30c\ud06c\uc5b4\uc6b8\ub9bc 1.2\ub2e8\uc9c0 \ubc0f \uc8fc\ubcc0\uc0c1\uac00 \ub4f1\uc5d0\uc11c \uac04\uc811\uae09\uc218 \uc804\ud658\uc791\uc5c5\uc744 \uc2e4\uc2dc\ud568.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-17",
             "08:55"
@@ -207,7 +207,7 @@
         },
         {
           "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\uace0\uc18d\ub3c4\ub85c \uc11c\uc6b8\ubc29\ud5a5, \uc11c\uc6b4\ubd84\uae30\uc810\uc5d0\uc11c \uc2e0\uc6d4\uad6c\uac04 \uac13\uae38 \uc774\ub3d9\ud558\uba74\uc11c \uccad\uc18c \uc791\uc5c5 \uc911.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-17",
             "18:13"
@@ -217,7 +217,7 @@
         },
         {
           "contents": "\ud638\uad6c\ud3ec\ub85c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88\uc774\uc0c1.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-02",
             "10:58"
@@ -227,7 +227,7 @@
         },
         {
           "contents": "\"\ubb34\ub124\ubbf8\ub85c \ub300\uacf5\uc6d0 \uc55e \uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \uc7a5\uc218\ub098\ub4e4\ubaa9\uad6c\uac04, \uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \uc9c4\uc785\ucc28\ub7c9\ub4e4 \uc9c0\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-02",
             "11:39"
@@ -237,7 +237,7 @@
         },
         {
           "contents": "\ubb34\ub124\ubbf8\ub85c \uc218\ud604\uc0bc\uac70\ub9ac\uc5d0\uc11c \uad6c\uc0b0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\uc138\ubc88.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-02",
             "11:43"
@@ -247,7 +247,7 @@
         },
         {
           "contents": "\ubb34\ub124\ubbf8\ub85c \uad6c\uc0b0\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc218\ud604\uc0ac\uac70\ub9ac\uad6c\uac04 \uc778\ucc9c\ubcd1\uc6d0\uc785\uad6c\uae4c\uc9c0 \uc9c0\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-02",
             "11:58"
@@ -257,7 +257,7 @@
         },
         {
           "contents": "\"\ubb34\ub124\ubbf8\ub85c \ub300\uacf5\uc6d0 \uc55e \uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \uc7a5\uc218\ub098\ub4e4\ubaa9\uad6c\uac04, \uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \uc9c4\uc785\ucc28\ub7c9\ub4e4 \ud558\uc704\ub450\uac1c\ucc28\ub85c\uc5d0\uc11c \ubc00\ub9bc.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-02",
             "11:58"
@@ -267,7 +267,7 @@
         },
         {
           "contents": "\uacbd\uc778\ub85c \ub3c4\ud654\uad50\ucc28\ub85c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \ubc00\ub9bc.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-04",
             "08:56"
@@ -277,7 +277,7 @@
         },
         {
           "contents": "\"\ubb34\ub124\ubbf8\ub85c \uc7a5\uc218\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc7a5\uc218\ub098\ub4e4\ubaa9\uad6c\uac04, \uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \uc9c4\uc785\ucc28\ub7c9\ub4e4\uc774 \ub300\uacf5\uc6d0 \uc55e \uc9c0\ud558\ucc28\ub3c4 \uc785\uad6c \uc774\uc804\ubd80\ud130 \ud558\uc704\ucc28\ub85c\uc5d0\uc11c \uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-04",
             "11:06"
@@ -287,7 +287,7 @@
         },
         {
           "contents": "\ubb34\ub124\ubbf8\ub85c \uc778\ucc9c\ubcd1\uc6d0\uc785\uad6c\uc5d0\uc11c \uad6c\uc0b0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc18c\ud1b5 \uc6d0\ud65c. \ubc18\ub300\ubc29\ud5a5\uc740 \uc1a1\ub0b4\uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \uc778\ucc9c\ubcd1\uc6d0\uc785\uad6c \uc9c0\ub098\ub294\ub370 \uc2e0\ud638 \ub450\ubc88.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-04",
             "11:11"
@@ -297,7 +297,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc11d\uc554\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-04",
             "15:43"
@@ -307,7 +307,7 @@
         },
         {
           "contents": "\ud638\uad6c\ud3ec\ub85c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4. \ubc18\ub300\ubc29\ud5a5 \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uc5d0\uc11c \uad6c\uc6d4\ub0a8\ub85c\uad50\ucc28\uc810\uad6c\uac04 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-04",
             "16:19"
@@ -317,7 +317,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac \uc9c0\ub098\ub294\ub370 \uc2e0\ud638 \ub450\ubc88.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-04",
             "18:04"
@@ -327,7 +327,7 @@
         },
         {
           "contents": "\ud638\uad6c\ud3ec\ub85c \uc120\uc218\ucd0c\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4. \uc774\ud6c4\ub85c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\ub3c4 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-04",
             "19:25"
@@ -337,7 +337,7 @@
         },
         {
           "contents": "\"\ubb34\ub124\ubbf8\ub85c \ub300\uacf5\uc6d0 \uc55e \uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \uc7a5\uc218\ub098\ub4e4\ubaa9\uad6c\uac04, \uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \uc9c4\uc785\ucc28\ub7c9\ub4e4 \uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-05",
             "16:14"
@@ -347,7 +347,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \ub3d9\ub9c9\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uacbd\uc6d0\ub85c\uc0bc\uac70\ub9ac\ubd80\ud130 \uc2dc\uc18d 10Km\ubbf8\ub9cc\uc73c\ub85c \uc815\uccb4. \ubc18\ub300\ubc29\ud5a5\uc740 \uc18c\ud1b5 \uc6d0\ud65c.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-07",
             "08:13"
@@ -357,7 +357,7 @@
         },
         {
           "contents": "\"\uacbd\uc6d0\ub300\ub85c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc6d0\uc778\uc7ac\uc5ed\uc0bc\uac70\ub9ac\ubd80\ud130 \uc815\uccb4. \ubc18\ub300\ubc29\ud5a5 \uc18c\ud1b5 \uc6d0\ud65c.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-07",
             "08:16"
@@ -367,7 +367,7 @@
         },
         {
           "contents": "\uacbd\uc778\ub85c \uc8fc\uc548\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc61b\uc2dc\ubbfc\ud68c\uad00\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-07",
             "10:11"
@@ -377,7 +377,7 @@
         },
         {
           "contents": "\"\ubbf8\ucd94\ud640\ub300\ub85c \uc2e0\uae30\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc61b\uc2dc\ubbfc\ud68c\uad00\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0, \uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-07",
             "16:05"
@@ -387,7 +387,7 @@
         },
         {
           "contents": "\"\ud638\uad6c\ud3ec\ub85c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uc591\ubc29\ud5a5, \uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-07",
             "16:24"
@@ -397,7 +397,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88. \ubc18\ub300\ubc29\ud5a5\uc740 \uc6d0\uc778\uc7ac\uc5ed\uc0bc\uac70\ub9ac \uc9c0\ub098\uba74\uc11c \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-07",
             "18:16"
@@ -407,7 +407,7 @@
         },
         {
           "contents": "\"\uacbd\uc6d0\ub300\ub85c \ub3d9\ub9c9\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04, \uacbd\uc6d0\ub85c\uc0bc\uac70\ub9ac \uc9c0\ub098\uba74\uc11c \uc2e0\ud638 \ub450\ubc88\uc774\uc0c1.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-07",
             "18:26"
@@ -417,7 +417,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "07:53"
@@ -427,7 +427,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \ub3d9\ub9c9\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uacbd\uc6d0\ub85c\uc0bc\uac70\ub9ac \uc9c0\ub098\uba74\uc11c\ubd80\ud130 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "08:13"
@@ -437,7 +437,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac \uc9c0\ub098\ub294\ub370 \uc2e0\ud638 \ub450\ubc88\uc774\uc0c1. \ubc18\ub300\ubc29\ud5a5 \uc218\uc6d4\ud558\uac8c \uc9c0\ub0a8.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "08:15"
@@ -447,7 +447,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc2e0\ucd0c\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubd80\ud3c9\uacf5\uc6d0\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "09:21"
@@ -457,7 +457,7 @@
         },
         {
           "contents": "\uacbd\uc778\ub85c \ub3d9\uc218\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubd80\ud3c9\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ud55c\ubc88 \ubd80\uc871.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "15:27"
@@ -467,7 +467,7 @@
         },
         {
           "contents": "\uacbd\uc778\ub85c \ubd80\ud3c9\uc0ac\uac70\ub9ac\uc5d0\uc11c \uac04\uc11d\uc624\uac70\ub9ac\uad6c\uac04 \uc18c\ud1b5 \uc6d0\ud65c. \ubc18\ub300\ubc29\ud5a5\uc740 \ubd80\ud3c9\uc0bc\uac70\ub9ac 200m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810\ubd80\ud130 \ubd80\ud3c9\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "15:34"
@@ -477,7 +477,7 @@
         },
         {
           "contents": "\ud638\uad6c\ud3ec\ub85c \ub9cc\uc6d4\ub85c\uad50\ucc28\uc810\uc5d0\uc11c \uac04\uc11d\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "18:11"
@@ -487,7 +487,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc6d0\uc778\uc7ac\uc5ed\uc0bc\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "18:11"
@@ -497,7 +497,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc6d0\uc778\uc7ac\uc5ed\uc0bc\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uc18c\ud1b5 \uc6d0\ud65c\ud558\uace0 \ubc18\ub300\ubc29\ud5a5 \uc2e0\ud638 \ud55c\ubc88 \ubd80\uc871.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "18:12"
@@ -507,7 +507,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\ub9c9\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uc0c1 \uc18c\ud1b5. \ubc18\ub300\ubc29\ud5a5\uc740 \uacbd\uc6d0\ub85c\uc0bc\uac70\ub9ac\ubd80\ud130 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-08",
             "18:16"
@@ -517,7 +517,7 @@
         },
         {
           "contents": "<\ucd5c\ucd08> \uacbd\uc778\ub85c \ub3c4\ud654\uad50\ucc28\ub85c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \ud558\uc704\ucc28\ub85c \ub9c9\uace0 \uacf5\uc0ac \uc911.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-10",
             "10:37"
@@ -527,7 +527,7 @@
         },
         {
           "contents": "\uacbd\uc778\ub85c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc61b\uc2dc\ubbfc\ud68c\uad00\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc815\uc0c1 \uc18c\ud1b5. \ubc18\ub300\ubc29\ud5a5\uc740 \ub3c4\ud654\uad50\ucc28\ub85c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \uc18d\ub3c4 \uc904\uc5ec \uc9c0\ub0a8.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-10",
             "10:46"
@@ -537,7 +537,7 @@
         },
         {
           "contents": "\ubb34\ub124\ubbf8\ub85c \uc7a5\uc218\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc218\ud604\uc0bc\uac70\ub9ac\uad6c\uac04 \ubc00\ub9bc.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-10",
             "12:00"
@@ -547,7 +547,7 @@
         },
         {
           "contents": "\ubb34\ub124\ubbf8\ub85c \uc7a5\uc218\uace0\uac00\uad50 \ub0a8\ub2e8\uc5d0\uc11c \uc218\ud604\uc0bc\uac70\ub9ac\uad6c\uac04 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-10",
             "12:14"
@@ -557,7 +557,7 @@
         },
         {
           "contents": "\"\ubb34\ub124\ubbf8\ub85c \uc7a5\uc218\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc218\ud604\uc0bc\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4\ub418\uace0, \uc774\ud6c4\ub85c \uad6c\uc0b0\uc0ac\uac70\ub9ac\ucabd\uc73c\ub85c \uc18c\ud1b5 \uc6d0\ud65c.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "09:15"
@@ -567,7 +567,7 @@
         },
         {
           "contents": "\"\ubb34\ub124\ubbf8\ub85c \uc7a5\uc218\uace0\uac00\uad50\uc5d0\uc11c \uc7a5\uc218\ub098\ub4e4\ubaa9\uad6c\uac04, \uc11c\uc6b8\uc678\uacfd\uc21c\ud658\uace0\uc18d\ub3c4\ub85c \uc9c4\uc785\ucc28\ub7c9\ub4e4\uc774 \uc7a5\uc218\uace0\uac00\uad50 \ubd81\ub2e8\ubd80\ud130 \ud558\uc704 \ub450\uac1c\ucc28\ub85c\uc5d0\uc11c \uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "09:16"
@@ -577,7 +577,7 @@
         },
         {
           "contents": "\"\ubb34\ub124\ubbf8\ub85c \uc218\ud604\uc0bc\uac70\ub9ac\uc5d0\uc11c \uc778\ucc9c\ubcd1\uc6d0 \uc785\uad6c\ubc29\ud5a5, \uc9c0\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "09:20"
@@ -587,7 +587,7 @@
         },
         {
           "contents": "\ud638\uad6c\ud3ec\ub85c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uad6c\uc6d4\ub0a8\ub85c\uad50\ucc28\uc810 \uc9c0\ub098\uba74\uc11c \uc815\uccb4\ub418\uace0 \uc2e0\ud638 \ub450\ubc88\uc774\uc0c1.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "10:42"
@@ -597,7 +597,7 @@
         },
         {
           "contents": "\ud638\uad6c\ud3ec\ub85c \uad6c\uc6d4\ub0a8\ub85c\uad50\ucc28\uc810\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4\ub418\uace0 \uc2e0\ud638 \ub450\ubc88\uc774\uc0c1.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "11:13"
@@ -607,7 +607,7 @@
         },
         {
           "contents": "\"\uacbd\uc6d0\ub300\ub85c \uc2b9\uae30\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\uad6c\uac04 \uc591\ubc29\ud5a5, \uc18d\ub3c4 \ub5a8\uc5b4\uc838 \uc9c0\ub0a8.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "16:26"
@@ -617,7 +617,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc11d\ubc14\uc704\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc11d\uc554\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uc0c1 \uc18c\ud1b5. \ubc18\ub300\ubc29\ud5a5 \uc9c0\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "16:28"
@@ -627,7 +627,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uacbd\uc6d0\ub85c\uc0bc\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "18:24"
@@ -637,7 +637,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc6d0\uc778\uc7ac\uc5ed\uc0bc\uac70\ub9ac\ubd80\ud130 \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-11",
             "18:27"
@@ -647,7 +647,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uad00\uad50\uc5ec\uc911\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2b9\uae30\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-13",
             "07:49"
@@ -657,7 +657,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uc120\ud559\uc9c0\ud558\ucc28\ub3c4\uc5d0\uc11c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5 \ubc00\ub9bc.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-13",
             "07:52"
@@ -667,7 +667,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc2e0\uc5f0\uc218\uc5ed\uc0ac\uac70\ub9ac \uc9c0\ub098\ub294\ub370 \uc2e0\ud638 \ub450\ubc88\uc774\uc0c1. \ubc18\ub300\ubc29\ud5a5 \uc18c\ud1b5 \uc6d0\ud65c.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-13",
             "08:21"
@@ -677,7 +677,7 @@
         },
         {
           "contents": "\"<\ucd5c\ucd08> \ube44\ub958\ub300\ub85c \uae38\ub9c8\uc0b0\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc218\ub9ac\ubd09\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uae38\ub9c8\uc0b0\uc0ac\uac70\ub9ac \uc9c0\ub098\uba74\uc11c \ud558\uc704 \ub450\uac1c\ucc28\ub85c\uac00 \uc791\uc5c5\uad00\uacc4\ub85c \ucc28\ub2e8\ub418\uc5b4 \uc788\uc74c.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-13",
             "11:53"
@@ -687,7 +687,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uacbd\uc6d0\ub85c\uc0bc\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac \uc9c0\ub098\ub294\ub370 \uc2e0\ud638 \ub450\ubc88\uc774\uc0c1. \ubc18\ub300\ubc29\ud5a5 \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\ub9c9\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uc0c1 \uc18c\ud1b5.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-14",
             "08:15"
@@ -697,7 +697,7 @@
         },
         {
           "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc6d0\uc778\uc7ac\uc5ed\uc0bc\uac70\ub9ac\ubc29\ud5a5, \uc6d0\uc778\uc7ac\uc5ed 6\ubc88\ucd9c\uad6c \ud558\uc704\ucc28\ub85c\uc5d0 \uacf5\uc0ac\uad00\ub828 \uc791\uc5c5\ucc28\ub7c9\uc774 \uc8fc\ucc28\ub418\uc5b4 \uc788\uc74c.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-14",
             "10:27"
@@ -707,7 +707,7 @@
         },
         {
           "contents": "\"<\ucd5c\ucd08> \uacbd\uc6d0\ub300\ub85c \uc120\ud559\uc5ed\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc6d0\uc778\uc7ac\uc5ed\uc0bc\uac70\ub9ac \ubd80\uadfc \ud558\uc704\ucc28\ub85c\uc5d0\uc11c \uc791\uc5c5 \uc911.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-16",
             "09:01"
@@ -717,7 +717,7 @@
         },
         {
           "contents": "\uc544\uc554\ub300\ub85c \uc815\ube44\ub2e8\uc9c0 \uc785\uad6c\uc5d0\uc11c \ub099\uc12c\uc0ac\uac70\ub9ac\uad6c\uac04 \uc815\uccb4. \ubc18\ub300\ubc29\ud5a5 \uc18c\ud1b5 \uc6d0\ud65c.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-19",
             "08:25"
@@ -727,7 +727,7 @@
         },
         {
           "contents": "\uc544\uc554\ub300\ub85c \ub2a5\ud574\uace0\uac00\uad50 \ub0a8\ub2e8 \uc774\uc804\ubd80\ud130 \ub099\uc12c\uc0ac\uac70\ub9ac\ubc29\ud5a5 \ubc00\ub9bc.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-19",
             "09:30"
@@ -737,7 +737,7 @@
         },
         {
           "contents": "\ud638\uad6c\ud3ec\ub85c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uc18d\ub3c4 \uc904\uc5ec \uc9c0\ub0a8. \ubc18\ub300\ubc29\ud5a5 \uc815\uc0c1 \uc18c\ud1b5.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-19",
             "11:29"
@@ -747,7 +747,7 @@
         },
         {
           "contents": "\uacbd\uc6d0\ub300\ub85c \uacbd\uc6d0\ub85c\uc0bc\uac70\ub9ac\uc5d0\uc11c \ub3d9\ucd98\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \ubc00\ub9bc.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-19",
             "18:28"
@@ -757,7 +757,7 @@
         },
         {
           "contents": "\"\ud638\uad6c\ud3ec\ub85c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\uad6c\uac04 \uc591\ubc29\ud5a5, \uc11c\ud589.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-20",
             "07:32"
@@ -767,7 +767,7 @@
         },
         {
           "contents": "\"<\uae34\uae09> \ub0a8\ub3d9\ub300\ub85c \ubc97\ub9d0\uc0ac\uac70\ub9ac\uc5d0\uc11c \ub0a8\ub3d9\uacf5\ub2e8\uc785\uad6c\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc5fc\uace8\uadfc\ub9b0\uacf5\uc6d0\uc0ac\uac70\ub9ac \uc9c0\ub098\uc790\ub9c8\uc790 4\ucc28\ub85c\uc5d0\uc11c \uc2b9\ud569\ucc28\uad00\ub828 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub098, \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc74c. \ub4a4\ub85c \uc624\ub294 \ucc28\ub7c9\ub4e4 \uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-20",
             "18:22"
@@ -777,7 +777,7 @@
         },
         {
           "contents": "\"<\ucd5c\ucd08> \ub0a8\ub3d9\ub300\ub85c \ub0a8\ub3d9\uace0\uac00\uad50\uc5d0\uc11c \ub0a8\ub3d9\uacf5\ub2e8\uc785\uad6c\uc0ac\uac70\ub9ac\ubc29\ud5a5, \ub0a8\ub3d9\uace0\uac00\uad50 \uc704\uc5d0\uc11c \ub3c4\ub85c \ud3ec\uc7a5 \uacf5\uc0ac \uc911. \uc774 \uc5ec\ud30c\ub85c \uc804\uc7ac\uc6b8\uc0ac\uac70\ub9ac\ubd80\ud130 \uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-20",
             "18:29"
@@ -787,7 +787,7 @@
         },
         {
           "contents": "\"\ub0a8\ub3d9\ub300\ub85c \ub0a8\ub3d9\uacf5\ub2e8\uc785\uad6c\uace0\uac00\uad50\uc5d0\uc11c \ubc97\ub9d0\uc0ac\uac70\ub9ac\ucabd\uc73c\ub85c \uc9c0,\uc815\uccb4.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-22",
             "08:14"
@@ -797,7 +797,7 @@
         },
         {
           "contents": "\ub0a8\ub3d9\ub300\ub85c \ub0a8\ub3d9\uacbd\ucc30\uc11c\uc0ac\uac70\ub9ac\uc5d0\uc11c \uae38\ubcd1\uc6d0\uc0ac\uac70\ub9ac\uad6c\uac04 \ubc00\ub9bc.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-22",
             "18:11"
@@ -807,7 +807,7 @@
         },
         {
           "contents": "\ubb34\ub124\ubbf8\ub85c \uc7a5\uc218\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc7a5\uc218\ub098\ub4e4\ubaa9\uad6c\uac04 \uc815\uccb4.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-23",
             "18:39"
@@ -817,7 +817,7 @@
         },
         {
           "contents": "\ubb34\ub124\ubbf8\ub85c \uc778\ucc9c\ubcd1\uc6d0 \uc785\uad6c\uc5d0\uc11c \uc218\ud604\uc0bc\uac70\ub9ac\uad6c\uac04 \uc18c\ud1b5 \uc6d0\ud65c. \ubc18\ub300\ubc29\ud5a5 \uc18d\ub3c4 \ub5a8\uc5b4\uc838 \uc9c0\ub0a8.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-23",
             "18:45"
@@ -827,7 +827,7 @@
         },
         {
           "contents": "\ud638\uad6c\ud3ec\ub85c \ubaa8\ub798\ub9c8\uc744\uc0ac\uac70\ub9ac\uc5d0\uc11c \uc791\uc740\uad6c\uc6d4\uc0ac\uac70\ub9ac\uad6c\uac04 \uc2e0\ud638 \ub450\ubc88.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-05-25",
             "09:51"
@@ -836,28 +836,65 @@
           "vid": "100"
         }
       ],
-      "receivedData": {
-        "contents": [],
-        "score": 0,
-        "createdTime": 0
-      }
+      "receivedData": [
+        {
+          "contents": "\"\ubd80\ucc9c \ubd80\uc77c\ub85c \uc804\ud654\uad6d\uc0ac\uac70\ub9ac\uc5d0\uc11c \ubd81\ubd80\uc5ed\uc0ac\uac70\ub9ac\uad6c\uac04 \uc9c0, \uc815\uccb4.\"",
+          "score": 1.0,
+          "createdTime": [
+            "2020-02-15",
+            "15:07"
+          ],
+          "GPS": "37.486773083542786,126.77684017411997",
+          "vid": "45"
+        },
+        {
+          "contents": "\"\ubd80\ucc9c \uc18c\uc0ac\ub85c \uc18c\uc0ac\ucd08\uad50 \uc55e \uc0ac\uac70\ub9ac\uc5d0\uc11c \uc18c\uc0ac\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc9c0, \uc815\uccb4.\"",
+          "score": 1.0,
+          "createdTime": [
+            "2020-02-15",
+            "15:39"
+          ],
+          "GPS": "37.47532579080175,126.7955137012966",
+          "vid": "45"
+        },
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 4\uc6d4 20\uc77c\uae4c\uc9c0, \ub0a8\ub3d9\uad6c \uc18c\ub798\ub85c\uc5d0\uc11c \uc7ac\ub09c\ub300\ube44 \ub3c4\ub85c\uc720\uc9c0\ubcf4\uc218 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "score": 1.0,
+          "createdTime": [
+            "2020-04-14",
+            "09:42"
+          ],
+          "GPS": "37.45275735649766,126.73619821575384",
+          "vid": "45"
+        },
+        {
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 4\uc6d4 27\uc77c \uc624\ud6c4 2\uc2dc\ubd80\ud130 4\uc2dc\uae4c\uc9c0 \uc11c\uad6c \uc655\uae38\ub3d9 488-1\ubc88\uc9c0 \uc77c\uc6d0(\uc655\uae38\ub3d9 \uac80\ub2e8\uc790\uc774 1,2\ub2e8\uc9c0, \ub4dc\ub9bc\ud30c\ud06c\uc5b4\uc6b8\ub9bc 1,2\ub2e8\uc9c0 \ubc0f \uc8fc\ubcc0 \uc0c1\uac00)\uc774 \uac04\uc811\uae09\uc218\ub85c \uc804\ud658\ub428.\"",
+          "score": 1.0,
+          "createdTime": [
+            "2020-04-14",
+            "10:51"
+          ],
+          "GPS": "37.59720037183002,126.63817298670904",
+          "vid": "45"
+        }
+      ]
     },
     "VTI": {
-      "DR": 1,
-      "AS": 1,
-      "NT": 3422.15,
-      "UR": 1,
-      "VT": 158.5,
-      "connectivity": 684.43,
-      "CF": 5,
+      "DR": 4.55,
+      "AS": 1.89,
+      "NT": 3640.59,
+      "UR": 6.4399999999999995,
+      "VT": 253.12,
+      "connectivity": 642.08,
+      "CF": 3,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "24",
+        "vid": "45",
         "VT": 0,
-        "position": 684.43,
+        "position": 642.08,
         "updateTime": 0
       }
     ]

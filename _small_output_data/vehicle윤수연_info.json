@@ -4,20 +4,20 @@
     "user": "\uc724\uc218\uc5f0",
     "social_activities": {
       "info": {
-        "response": 0,
-        "received_data": 0,
-        "not_used_data": 0,
-        "redistributed_data": 0
+        "response": 9,
+        "received_data": 9,
+        "not_used_data": 1,
+        "redistributed_data": 8
       },
-      "scoring": 0,
-      "ignoring": 0,
-      "sharing": 0
+      "scoring": 1.0,
+      "ignoring": 0.11,
+      "sharing": 0.89
     },
     "VDI": {
       "createdData": [
         {
           "contents": "(\uacf5\uc0ac\uc548\ub0b4) 5\uc6d4 5\uc77c\uae4c\uc9c0 \uacbd\uc778\ub85c \ub3c4\ud654\ub098\ub4e4\ubaa9\ucd9c\uad6c\uc5d0\uc11c \ub3c4\ud654\ucd08\uad50\uc0ac\uac70\ub9ac\uad6c\uac04 \ucc28\ub85c\ub97c \ubd80\ubd84 \ud1b5\uc81c\ud558\uace0 \uad50\ud1b5 \uac1c\uc120 \uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568. \uc774\ub85c\uc778\ud574 \uc8fc\ubcc0\ub3c4\ub85c \uc815\uccb4\uac00 \uc608\uc0c1\ub418\ub2c8 \ubbf8\ub9ac \uc6b0\ud68c\ud574\uc11c \uc6b4\ud589 \ubc14\ub78c.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-14",
             "16:45"
@@ -27,7 +27,7 @@
         },
         {
           "contents": "(\uacf5\uc0ac\uc548\ub0b4) \uc2dc\ud765\uc2dc \uc11c\ud574\uc548\ub85c \uc6d4\uacf6\uad50\ucc28\ub85c\uc5d0\uc11c \uc2e0\ucc9c\ub098\ub4e4\ubaa9\uc0bc\uac70\ub9ac\uad6c\uac04 \ud655\uc7a5 \uacf5\uc0ac \uc911.",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-16",
             "07:56"
@@ -37,7 +37,7 @@
         },
         {
           "contents": "\"<\uae34\uae09> \uc778\ucc9c\ub300\ub85c \uc11c\uc778\ucc9c\ub098\ub4e4\ubaa9\uc5d0\uc11c \uac00\uc88c\ub098\ub4e4\ubaa9\ubc29\ud5a5, \uc11d\ub0a8\uc9c4\ucd9c\ub85c \uc9c0\ub098\uc790\ub9c8\uc790 1,3\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uc640 \ud654\ubb3c\ucc28\uac04 \uc811\ucd09\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \ud604\uc7ac \uc0ac\uace0 \ucc98\ub9ac\uc911\uc774\ub2c8 \uc8fc\uc758 \uc694\ub9dd.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-17",
             "07:54"
@@ -47,7 +47,7 @@
         },
         {
           "contents": "\"<\ucd5c\ucd08> \uacbd\uc778\uace0\uc18d\ub3c4\ub85c \uc11c\uc6b8\ubc29\ud5a5, \uc11c\uc778\ucc9c\uc5d0\uc11c \uc11c\uc6b4\ubd84\uae30\uc810\uad6c\uac04 \uac13\uae38\uc5d0\uc11c \ucc28\uc120 \uaddc\uc81c\ubd09 \ubcf4\uc218 \uc791\uc5c5 \uc911.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-17",
             "18:19"
@@ -57,7 +57,7 @@
         },
         {
           "contents": "\"<\uae34\uae09> \uace0\uc591\uc2dc \uc790\uc720\ub85c \ubb38\uc0b0\ubc29\ud5a5, \ubd81\ub85c\ubd84\uae30\uc810 300m \uc815\ub3c4 \uc9c0\ub09c \uc9c0\uc810 2\ucc28\ub85c\uc5d0\uc11c \ud654\ubb3c\ucc28 \uad00\ub828 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \ud604\uc7ac 1,2,3\ucc28\ub85c \ub9c9\uace0 \ucc98\ub9ac\uc791\uc5c5\ud558\uace0 \uc788\uc5b4 \ucc28\ub7c9\ub4e4 \uc815\uccb4 \uc2ec\ud558\uace0 \ud63c\uc7a1\ud568.\"",
-          "score": 1,
+          "score": 0.89,
           "createdTime": [
             "2020-04-30",
             "12:30"
@@ -66,28 +66,35 @@
           "vid": "61"
         }
       ],
-      "receivedData": {
-        "contents": [],
-        "score": 0,
-        "createdTime": 0
-      }
+      "receivedData": [
+        {
+          "contents": "(\uacf5\uc0ac\uc548\ub0b4) \uacbd\ubd80\uace0\uc18d\ub3c4\ub85c \uc624\uc0b0\uc5d0\uc11c \uc548\uc131\ubd84\uae30\uc810 \uc0ac\uc774\uc5d0 \ub0a8\uc0ac\ub098\ub4e4\ubaa9 \uc124\uce58\uacf5\uc0ac \uc911. \uc774 \uacf5\uc0ac\ub294 \uc62c\ud574 12\uc6d4 \uc900\uacf5\uc744 \ubaa9\ud45c\ub85c \uc9c4\ud589\ub418\uace0 \uc788\uc74c.",
+          "score": 0.02,
+          "createdTime": [
+            "2020-05-25",
+            "10:54"
+          ],
+          "GPS": "37.47919412307878,126.7107125011288",
+          "vid": "66"
+        }
+      ]
     },
     "VTI": {
-      "DR": 1,
-      "AS": 1,
-      "NT": 8.84,
-      "UR": 1,
-      "VT": 102.97,
-      "connectivity": 2.21,
-      "CF": 4,
+      "DR": 9.09,
+      "AS": 1.89,
+      "NT": 672.48,
+      "UR": 10.98,
+      "VT": 185.93,
+      "connectivity": 50.83,
+      "CF": 7,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "80",
+        "vid": "65",
         "VT": 0,
-        "position": 2.21,
+        "position": 50.83,
         "updateTime": 0
       }
     ]

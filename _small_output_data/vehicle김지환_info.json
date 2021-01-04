@@ -4,20 +4,20 @@
     "user": "\uae40\uc9c0\ud658",
     "social_activities": {
       "info": {
-        "response": 0,
-        "received_data": 0,
-        "not_used_data": 0,
-        "redistributed_data": 0
+        "response": 8,
+        "received_data": 9,
+        "not_used_data": 1,
+        "redistributed_data": 8
       },
-      "scoring": 0,
-      "ignoring": 0,
-      "sharing": 0
+      "scoring": 0.89,
+      "ignoring": 0.11,
+      "sharing": 0.89
     },
     "VDI": {
       "createdData": [
         {
           "contents": "<\uae34\uae09> \uacbd\uba85\ub300\ub85c\uc640 \uacc4\uc591\ub300\ub85c\uac00 \ub9cc\ub098\ub294 \uacc4\uc0b0\uc0bc\uac70\ub9ac \ub0b4 3\ucc28\ub85c\uc5d0\uc11c \uc2b9\uc6a9\ucc28\uc640 \ud0dd\uc2dc\uac04 \ucd94\ub3cc\uc0ac\uace0\uac00 \uc77c\uc5b4\ub0ac\uc74c. \uc544\uc9c1 \uc0ac\uace0\ucc98\ub9ac \ub418\uc9c0 \uc54a\uace0 \uc788\uc73c\ub2c8 \uc8fc\uc758 \uc694\ub9dd.",
-          "score": 1,
+          "score": 0.79,
           "createdTime": [
             "2020-05-12",
             "07:49"
@@ -26,28 +26,35 @@
           "vid": "29"
         }
       ],
-      "receivedData": {
-        "contents": [],
-        "score": 0,
-        "createdTime": 0
-      }
+      "receivedData": [
+        {
+          "contents": "\ubd80\ucc9c \uc624\uc815\ub85c \uc6b0\ud3b8\uc9d1\uc911\uad6d\uc0bc\uac70\ub9ac 200m \uc815\ub3c4 \ubabb \uac04 \uc9c0\uc810\ubd80\ud130 \uc0b0\uc5c5\uae38\uc0ac\uac70\ub9ac\uae4c\uc9c0 \uc815\uccb4.",
+          "score": 1.23,
+          "createdTime": [
+            "2020-04-29",
+            "07:59"
+          ],
+          "GPS": "37.52820163735897,126.78434473669294",
+          "vid": "107"
+        }
+      ]
     },
     "VTI": {
-      "DR": 1,
-      "AS": 1,
-      "NT": 111.54,
-      "UR": 1,
-      "VT": 110.56,
-      "connectivity": 55.77,
-      "CF": 2,
+      "DR": 9.09,
+      "AS": 1.78,
+      "NT": 1577.49,
+      "UR": 10.87,
+      "VT": 230.95,
+      "connectivity": 295.41,
+      "CF": 3,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "96",
+        "vid": "107",
         "VT": 0,
-        "position": 55.77,
+        "position": 295.41,
         "updateTime": 0
       }
     ]

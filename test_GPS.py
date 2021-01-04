@@ -586,8 +586,9 @@ def make_VT_algorithm(v, mal_vehicle) :
                 real_info['VT'] = VT
     return v
 
-
-def carTrust(mal_vehicle):
+longitude = []
+latitude = []
+def carTrust(longitude, latitude, mal_vehicle):
     #### mixed data에서 모든 vehicle 정보를 불러옴 ####
     v_list = make_mixed_vlist()
     final_vlist = []
@@ -619,7 +620,11 @@ def carTrust(mal_vehicle):
         # print('====================================')
         # print('v2 :', v2)
         # print('====================================')
-        # '''
+
+
+        RSU(longitude, latitude, v1, v2)
+
+
         #-------------------social activity -------------------------
         v1_social_temp = ''
         v2_social_temp = ''
@@ -653,7 +658,7 @@ def carTrust(mal_vehicle):
         # print('=========================================')
         # pprint(v2)
         # print('****************set_social_init() & make_social_info()*************')
-        # '''
+
         #-----------------connectivity--------------------------
         #소셜행위가 이루어짐과 동시에 거리 계산과 데이터 교환 및 소셜 점수가 올라가야 함 !
         # 1. 데이터 교환
@@ -762,8 +767,8 @@ def carTrust(mal_vehicle):
     ##### target, find ######
     return sorted(mal_vehicle), sorted(find_num), find
 
-
-def RSU(v):
+################################################################################
+def RSU(longitude, latitude, v1, v2):
     #여러 차량의 VTI를 수집하고 기하평균? 가중평균
     '''
     RSU는 input으로 들어오는 v의 모든 정보를 append하여 저장시키고
@@ -771,252 +776,39 @@ def RSU(v):
     그리고 클러스터링 별로 전역 신뢰도 값을 주어야 함
     '''
 
-    return rti
+    # latitude = [] #위도(뒤)
+    # longitude = [] #경도(앞)
+
+    v1_temp = []
+    v2_temp = []
+    for key, info in v1.items():
+        for second_key in info:
+            real_info = info['VDI']
+            for third_key in real_info:
+                v1_temp = real_info['createdData']
+
+    for key, info in v2.items():
+        for second_key in info:
+            real_info = info['VDI']
+            for third_key in real_info:
+                v2_temp = real_info['createdData']
+
+    try:
+        for i in v1_temp[0]:
+            gps = v1_temp[0]['GPS'].split(',')
+            latitude.append(float(gps[1]))
+            longitude.append(float(gps[0]))
+
+        for i in v2_temp[0]:
+            gps = v2_temp[0]['GPS'].split(',')
+            latitude.append(float(gps[1]))
+            longitude.append(float(gps[0]))
+    except:
+            print('error')
 
 
+    return longitude, latitude
 
-def make_performance(target,find):
-
-    target = np.array(target)
-    find = np.array(find)
-
-    accuracy = round(np.mean(np.equal(target,find)),2)
-    right = np.sum(target * find == 1)
-    precision = round(right / np.sum(find),2)
-    recall = round(right / np.sum(target),2)
-    f1 = 2 * round(precision*recall/(precision+recall),2)
-    print('==============================')
-    print('accuracy :',accuracy)
-    print('precision :', precision)
-    print('recall :', recall)
-    print('f-measure :', f1)
-    print('==============================')
-
-    return accuracy, precision, recall, f1
-
-
-def make_performance_table(accuracy_list, precision_list, recall_list, f1_list):
-    avg_accuracy = round(sum(accuracy_list)/len(accuracy_list),2)
-    avg_precision = round(sum(precision_list)/len(precision_list),2)
-    avg_recall = round(sum(recall_list)/len(recall_list),2)
-    avg_f1 = round(sum(f1_list)/len(f1_list),2)
-    return avg_accuracy, avg_precision, avg_recall, avg_f1
-
-from matplotlib.ticker import (AutoMinorLocator, MultipleLocator)
-def make_chart_accuracy(mal_v_num, accuracy_list):
-    # # x축 : list 길이 같아야
-    # # y축 : list 길이 같아야 함
-    font_name = font_manager.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
-    rc('font', family=font_name)
-    #
-    # fig = plt.figure()
-    # ax = fig.add_subplot(1, 1, 1)
-    #
-    # # Major ticks every 20, minor ticks every 5
-    # x_major_ticks = np.arange(5, 21, 5)
-    # x_minor_ticks = np.arange(0, 20, 1)
-    # y_major_ticks = np.arange(0.1, 1.1, 0.05)
-    # y_minor_ticks = np.arange(0.5, 1.1, 0.01)
-    #
-    # ax.set_xticks(x_major_ticks)
-    # ax.set_xticks(x_minor_ticks, minor=True)
-    # ax.set_yticks(y_major_ticks)
-    # ax.set_yticks(y_minor_ticks, minor=True)
-    #
-    # # And a corresponding grid
-    # ax.grid(which='both')
-    #
-    # # Or if you want different settings for the grids:
-    # ax.grid(which='minor', alpha=0.2)
-    # ax.grid(which='major', alpha=0.5)
-    #
-    # ax.plot(mal_v_num, accuracy_list, color='red', marker='*')
-    # # ax.axis((4,21,0.7,1))
-    # # ax.xticks([5, 10, 15, 20])
-    # # ax.ylim(0.01, 1.00)
-    # # plt.yticks(np.arange(0.1, 1))
-    # plt.legend(['accuracy'])
-    # plt.xlabel('악의적인 차량 수')
-    # plt.ylabel('정확도')
-    # plt.title('악의적인 차량 탐지율 정확도')
-    # plt.show()
-
-    fig, ax = plt.subplots(figsize=(10, 8))
-
-    # Set axis ranges; by default this will put major ticks every 25.
-    ax.set_xlim(4, 21)
-    ax.set_ylim(0.7, 1.01)
-
-    # Change major ticks to show every 20.
-    ax.xaxis.set_major_locator(MultipleLocator(5))
-    ax.yaxis.set_major_locator(MultipleLocator(0.05))
-
-    # Change minor ticks to show every 5. (20/4 = 5)
-    ax.xaxis.set_minor_locator(AutoMinorLocator(1))
-    ax.yaxis.set_minor_locator(AutoMinorLocator(0.01))
-
-    # Turn grid on for both major and minor ticks and style minor slightly
-    # differently.
-    ax.grid(which='major', color='#CCCCCC', linestyle='--')
-    ax.grid(which='minor', color='#CCCCCC', linestyle=':')
-
-    ax.plot(mal_v_num, accuracy_list, color='red', marker='*')
-
-    plt.legend(['accuracy'])
-    plt.xlabel('악의적인 차량 수')
-    plt.ylabel('정확도')
-    plt.title('악의적인 차량 탐지율 정확도')
-    plt.show()
-
-def make_chart_precision(mal_v_num, precision_list):
-    # x축 : list 길이 같아야
-    # y축 : list 길이 같아야 함
-    font_name = font_manager.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
-    rc('font', family=font_name)
-    # plt.grid()
-
-    fig, ax = plt.subplots(figsize=(10, 8))
-
-    # Set axis ranges; by default this will put major ticks every 25.
-    ax.set_xlim(4, 21)
-    ax.set_ylim(0.5, 1.01)
-
-    # Change major ticks to show every 20.
-    ax.xaxis.set_major_locator(MultipleLocator(5))
-    ax.yaxis.set_major_locator(MultipleLocator(0.05))
-
-    # Change minor ticks to show every 5. (20/4 = 5)
-    ax.xaxis.set_minor_locator(AutoMinorLocator(1))
-    ax.yaxis.set_minor_locator(AutoMinorLocator(0.01))
-
-    # Turn grid on for both major and minor ticks and style minor slightly
-    # differently.
-    ax.grid(which='major', color='#CCCCCC', linestyle='--')
-    ax.grid(which='minor', color='#CCCCCC', linestyle=':')
-
-
-    plt.plot(mal_v_num, precision_list, color='green',  marker='o')
-    # plt.axis((4,21,0.5,1))
-    # plt.xticks([5, 10, 15, 20])
-    # plt.ylim(0.50, 1.00)
-    # plt.yticks(np.arange(0.1, 1))
-    plt.legend(['precision'])
-    plt.xlabel('악의적인 차량 수')
-    plt.ylabel('정밀도')
-    plt.title('악의적인 차량 탐지율 정밀도')
-    plt.show()
-
-def make_chart_recall(mal_v_num, recall_list):
-    # x축 : list 길이 같아야
-    # y축 : list 길이 같아야 함
-    font_name = font_manager.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
-    rc('font', family=font_name)
-    # plt.grid()
-    fig, ax = plt.subplots(figsize=(10, 8))
-
-    ax.set_xlim(4, 21)
-    ax.set_ylim(0.5, 1.01)
-
-    # Change major ticks to show every 20.
-    ax.xaxis.set_major_locator(MultipleLocator(5))
-    ax.yaxis.set_major_locator(MultipleLocator(0.05))
-
-    # Change minor ticks to show every 5. (20/4 = 5)
-    ax.xaxis.set_minor_locator(AutoMinorLocator(1))
-    ax.yaxis.set_minor_locator(AutoMinorLocator(0.01))
-
-    # Turn grid on for both major and minor ticks and style minor slightly
-    # differently.
-    ax.grid(which='major', color='#CCCCCC', linestyle='--')
-    ax.grid(which='minor', color='#CCCCCC', linestyle=':')
-
-    plt.plot(mal_v_num, recall_list, color='blue',  marker='s')
-    # plt.axis((4,21,0.5,1))
-    # plt.xticks([5, 10, 15, 20])
-    # plt.ylim(0.50, 1.00)
-    # plt.yticks(np.arange(0.1, 1))
-    plt.legend(['recall'])
-    plt.xlabel('악의적인 차량 수')
-    plt.ylabel('재현율')
-    plt.title('악의적인 차량 탐지율 재현율')
-    plt.show()
-
-def make_chart_fmeasure(mal_v_num, f1_list):
-    # x축 : list 길이 같아야
-    # y축 : list 길이 같아야 함
-    font_name = font_manager.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
-    rc('font', family=font_name)
-    # plt.grid()
-    fig, ax = plt.subplots(figsize=(10, 8))
-
-    ax.set_xlim(4, 21)
-    ax.set_ylim(0.5, 1.01)
-
-    # Change major ticks to show every 20.
-    ax.xaxis.set_major_locator(MultipleLocator(5))
-    ax.yaxis.set_major_locator(MultipleLocator(0.05))
-
-    # Change minor ticks to show every 5. (20/4 = 5)
-    ax.xaxis.set_minor_locator(AutoMinorLocator(1))
-    ax.yaxis.set_minor_locator(AutoMinorLocator(0.01))
-
-    # Turn grid on for both major and minor ticks and style minor slightly
-    # differently.
-    ax.grid(which='major', color='#CCCCCC', linestyle='--')
-    ax.grid(which='minor', color='#CCCCCC', linestyle=':')
-
-    plt.plot(mal_v_num, f1_list, color='purple',  marker='s')
-    # plt.axis((4,21,0.5,1))
-    # plt.xticks([5, 10, 15, 20])
-    # plt.ylim(0.50, 1.00)
-    # plt.yticks(np.arange(0.1, 1))
-    plt.legend(['F-measure'])
-    plt.xlabel('악의적인 차량 수')
-    plt.ylabel('F-measure')
-    plt.title('악의적인 차량 탐지율 F-measure')
-    plt.show()
-
-def make_chart(mal_v_num, accuracy_list, precision_list, recall_list, f1_list):
-    # x축 : list 길이 같아야
-    # y축 : list 길이 같아야 함
-    font_name = font_manager.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
-    rc('font', family=font_name)
-    plt.grid()
-    plt.plot(mal_v_num, accuracy_list, color='red', marker='*')
-    plt.plot(mal_v_num, precision_list, color='green',  marker='o')
-    plt.plot(mal_v_num, recall_list, color='blue',  marker='s')
-    plt.plot(mal_v_num, f1_list, color='purple',  marker='s')
-    plt.axis((4,21,0.1,1))
-    plt.xticks([5, 10, 15, 20])
-    # plt.yticks(np.arange(0.1, 1))
-    plt.legend(['accuracy', 'precision', 'recall', 'F-measure'])
-    plt.xlabel('악의적인 차량 수')
-    plt.ylabel('정확도')
-    plt.title('악의적인 차량 탐지율')
-    plt.show()
-
-
-def make_chart_hist(mal_v_num, accuracy_list):
-    # x축 : list 길이 같아야
-    # y축 : list 길이 같아야 함
-    # plt.plot(mal_v_num, accuracy_5, color='red', marker='*')
-    # plt.plot(mal_v_num, accuracy_10, color='green',  marker='o')
-    # plt.plot(mal_v_num, accuracy_15, color='blue',  marker='s')
-    # plt.plot(mal_v_num, accuracy_20, color='purple',  marker='s')
-    font_name = font_manager.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
-    rc('font', family=font_name)
-    print(accuracy_list)
-    plt.hist(accuracy_list, bins=mal_v_num, density=False, cumulative=False, label='A', color='r', edgecolor='black', linewidth=1.2)
-    plt.legend(['정확도'])
-    plt.xlabel('악의적인 차량 수')
-    plt.ylabel('정확도')
-    plt.title('악의적인 차량 탐지율')
-    plt.show()
-
-    x = [21,22,23,4,5,6,77,8,9,10,31,32,33,34,35,36,37,18,49,50,100]
-    num_bins = 5
-    n, bins, patches = plt.hist(x, num_bins, facecolor='blue', alpha=0.5)
-    plt.show()
 
 
 ###############################  main start ####################################
@@ -1119,86 +911,22 @@ with open('./_original_data/'+f'vehicle{test_user}_info.json', 'rb') as f:
 
 
 ############################ 5 ############################
-print('!!!', len(origin_v_list))
+# print('!!!', len(origin_v_list))
 mal_user_id_5, mal_user_5,  mal_vehicle_num_5, mal_vehicle_5 = make_mal(origin_v_list, 5)
 make_mixed_data(reporters, original_data, mal_user_5)
-print('==================5==================')
-print(' * mal_user_id =',mal_user_id_5)
-print(' * mal_user =',mal_user_5)
+# print('==================5==================')
+# print(' * mal_user_id =',mal_user_id_5)
+# print(' * mal_user =',mal_user_5)
 
-target_5, find_num_5, find_5 = carTrust(mal_vehicle_num_5)
-print(' * target_5 =', target_5)
-print(' * find_num_5 =', find_num_5)
-print('===> mal_vehicle_5 =', mal_vehicle_5)
-print('===> find_5 =', find_5)
-accuracy_5, precision_5, recall_5, f1_5 = make_performance(mal_vehicle_5, find_5)
+target_5, find_num_5, find_5 = carTrust(longitude, latitude, mal_vehicle_num_5)
+print('====long====')
+print(set(longitude))
+print('=====lat=====')
+print(set(latitude))
+long, lat = set(longitude), set(latitude)
 
-############################ 10 ############################
-mal_user_id_10, mal_user_10, mal_vehicle_num_10, mal_vehicle_10 = make_mal(origin_v_list, 10)
-make_mixed_data(reporters, original_data, mal_user_10)
-print('==================10==================')
-print(' * mal_user_id =',mal_user_id_10)
-print(' * mal_user =',mal_user_10)
-# print('mal_vehicle_num_10 =',mal_vehicle_num_10)
+long_min, long_max = min(long), max(long)
+lat_min, lat_max = min(lat), max(lat)
 
-target_10, find_num_10, find_10 = carTrust(mal_vehicle_num_10)
-print(' * target_10 =', target_10)
-print(' * find_num_10 =', find_num_10)
-print('===> mal_vehicle_10 =',mal_vehicle_10)
-print('===> find_10 =', find_10)
-accuracy_10, precision_10, recall_10, f1_10 = make_performance(mal_vehicle_10, find_10)
-
-
-############################ 15 ############################
-mal_user_id_15, mal_user_15, mal_vehicle_num_15, mal_vehicle_15 = make_mal(origin_v_list, 15)
-make_mixed_data(reporters, original_data, mal_user_15)
-print('==================15==================')
-print(' * mal_user_id =',mal_user_id_15)
-print(' * mal_user =',mal_user_15)
-# print('mal_vehicle_num_15 =',mal_vehicle_num_15)
-
-target_15, find_num_15, find_15 = carTrust(mal_vehicle_num_15)
-print(' * target_15 =', target_15)
-print(' * find_num_15 =', find_num_15)
-print('===> mal_vehicle_15 =',mal_vehicle_15)
-print('===> find_15 =', find_15)
-accuracy_15, precision_15, recall_15, f1_15 = make_performance(mal_vehicle_15, find_15)
-
-
-############################ 20 ############################
-mal_user_id_20, mal_user_20, mal_vehicle_num_20, mal_vehicle_20 = make_mal(origin_v_list, 20)
-make_mixed_data(reporters, original_data, mal_user_20)
-print('==================20==================')
-print(' * mal_user_id =',mal_user_id_20)
-print(' * mal_user =',mal_user_20)
-# print('mal_vehicle_num_20 =',mal_vehicle_num_20)
-
-target_20, find_num_20, find_20 = carTrust(mal_vehicle_num_20)
-print(' * target_20 =', target_20)
-print(' * find_num_20 =', find_num_20)
-print('===> mal_vehicle_20 =',mal_vehicle_20)
-print('===> find_20 =', find_20)
-accuracy_20, precision_20, recall_20, f1_20 = make_performance(mal_vehicle_20, find_20)
-
-
-mal_v_num = [5,10,15,20]
-accuracy_list = [accuracy_5, accuracy_10, accuracy_15, accuracy_20]
-precision_list = [precision_5, precision_10, precision_15, precision_20]
-recall_list = [recall_5, recall_10, recall_15, recall_20]
-f1_list = [f1_5, f1_10, f1_15, f1_20]
-
-# make_chart(mal_v_num, accuracy_list, precision_list, recall_list, f1_list)
-make_chart_accuracy(mal_v_num, accuracy_list)
-make_chart_precision(mal_v_num, precision_list)
-make_chart_recall(mal_v_num, recall_list)
-make_chart_fmeasure(mal_v_num, f1_list)
-
-
-
-ac, pr, re, f1 = make_performance_table(accuracy_list, precision_list, recall_list, f1_list)
-print('accuracy_avg = ', ac)
-print('precision_avg = ', pr)
-print('recall_avg = ', re)
-print('f1_score_avg = ', f1)
-
-# make_chart_hist(mal_v_num, accuracy_list)
+print(long_min, long_max)
+print(lat_min, lat_max)

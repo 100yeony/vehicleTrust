@@ -4,50 +4,57 @@
     "user": "\uae38\uc778\uc218",
     "social_activities": {
       "info": {
-        "response": 0,
-        "received_data": 0,
-        "not_used_data": 0,
-        "redistributed_data": 0
+        "response": 1,
+        "received_data": 10,
+        "not_used_data": 10,
+        "redistributed_data": 2
       },
-      "scoring": 0,
-      "ignoring": 0,
-      "sharing": 0
+      "scoring": 0.1,
+      "ignoring": 1.0,
+      "sharing": 0.2
     },
     "VDI": {
       "createdData": [
         {
-          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) \uacbd\uae30\ub3c4 \ucd5c\ubd81\ub2e8\uc744 \ub3d9.\uc11c\ub85c \uc787\ub294 \uad6d\ub3c4 37\ud638\uc120 \ud30c\uc8fc ~ \uac00\ud3c9\uae4c\uc9c0 73Km\uad6c\uac04 \uc911 \ubbf8\uac1c\ud1b5\uad6c\uac04\uc778 \uc5f0\ucc9c \uccad\uc0b0\uba74 \ubc31\uc758\ub9ac\uc5d0\uc11c \uc7a5\ud0c4\ub9ac\uae4c\uc9c0 3.5Km\uad6c\uac04\uc5d0\uc11c \uacf5\uc0ac \uc911. \ube60\ub974\uba74 6\uc6d4, \ub2a6\uc5b4\ub3c4 8\uc6d4\uc5d0\ub294 \uac1c\ud1b5\uc744 \ubaa9\ud45c\ub85c \uc9c4\ud589\ud558\uace0 \uc788\uc74c.\"",
-          "score": 1,
+          "contents": "\"(\uacf5\uc0ac\uc548\ub0b4) 7\uc6d4 15\uc77c\uae4c\uc9c0 \uc11c\uad6c \uc2ec\uace1\ub3d9 242-13 \uc77c\uc6d0, \uac80\uc554\ub3d9 609-5 \uc77c\uc6d0\uc5d0\uc11c \ub178\ud6c4\uad00 \uad50\uccb4\uacf5\uc0ac\ub97c \uc2e4\uc2dc\ud568.\"",
+          "score": 0.02,
           "createdTime": [
-            "2020-04-15",
-            "08:57"
+            "2020-05-25",
+            "10:54"
           ],
-          "GPS": "38.02928429333917,127.10331725268198",
-          "vid": "3"
+          "GPS": "37.47919412307878,126.7107125011288",
+          "vid": "4"
         }
       ],
-      "receivedData": {
-        "contents": [],
-        "score": 0,
-        "createdTime": 0
-      }
+      "receivedData": [
+        {
+          "contents": "\"<\ucd5c\ucd08> \ub9c8\uc7a5\ub85c \ubc31\ub9c8\uc7a5\uc0ac\uac70\ub9ac\uc5d0\uc11c \uccad\uc218\uc0ac\uac70\ub9ac\ubc29\ud5a5, \uc138\uc6d4\ucc9c\ub85c\uad50\ucc28\uc810\ubd80\uadfc 1\ucc28\ub85c\uc5d0\uc11c \ub3c4\ub85c \ud30c\ub294 \uc791\uc5c5 \uc911. \uc774\ub85c\uc778\ud574 \uc9c4\ud589\uc5d0 \ubd88\ud3b8 \uacaa\uace0 \uc788\uc73c\ub2c8 \ubbf8\ub9ac \uc6b0\ud68c\ud574\uc11c \uc6b4\ud589 \ubc14\ub78c.\"",
+          "score": 0.99,
+          "createdTime": [
+            "2020-04-18",
+            "09:10"
+          ],
+          "GPS": "37.51304603511952,126.70392543234367",
+          "vid": "104"
+        }
+      ]
     },
     "VTI": {
-      "DR": 1,
-      "AS": 1,
-      "NT": 3.124845795793119e+32,
-      "UR": 1,
-      "VT": 1.7677233368921604e+16,
-      "connectivity": 6.249691591586238e+31,
-      "CF": 5,
+      "DR": 1.0,
+      "AS": 0.3,
+      "NT": 81.45,
+      "UR": 1.3,
+      "VT": 8.64,
+      "connectivity": 45.25,
+      "CF": 6,
       "VT_updateTime": 0,
       "PVT": 0
     },
     "RTI": [
       {
-        "vid": "38",
+        "vid": "104",
         "VT": 0,
-        "position": 6.249691591586238e+31,
+        "position": 45.25,
         "updateTime": 0
       }
     ]

@@ -16,14 +16,14 @@
     "VDI": {
       "createdData": [
         {
-          "contents": "\"\uacbd\ubd80\uace0\uc18d\ub3c4\ub85c \ubd80\uc0b0\ubc29\ud5a5, \ud55c\ub0a8\uc5d0\uc11c \uc11c\ucd08\uae4c\uc9c0 4Km\uad6c\uac04, \ub2ec\ub798\ub0b4\ubd80\uadfc 2Km\uad6c\uac04, \uc8fd\uc804\ubd80\uadfc\uc5d0\uc11c \ub0a8\uc0ac\ubd80\uadfc\uae4c\uc9c0 29Km\uad6c\uac04, \uc548\uc131\uc5d0\uc11c \ucc9c\uc548\ud734\uac8c\uc18c\ubd80\uadfc\uae4c\uc9c0 39Km\uad6c\uac04, \uc625\uc0b0\ubd84\uae30\uc810\ubd80\uadfc\uc5d0\uc11c \uc625\uc0b0\ubd80\uadfc\uae4c\uc9c0 6Km\uad6c\uac04, \uccad\uc8fc\ubd84\uae30\uc810\ubd80\uadfc\uc5d0\uc11c \uc2e0\ud0c4\uc9c4\ubd80\uadfc\uae4c\uc9c0 10Km\uad6c\uac04 \uc815\uccb4.\"",
+          "contents": "\"\ud604\uc7ac, \ub9cc\uc6d4\ub85c \uc778\ucc9c\uac00\uc871\uacf5\uc6d0\ubd80\uadfc \ubc29\ubb38\ucc28\ub7c9\ub4e4 \ub9ce\uc544 \ubc00\ub9bc.\"",
           "score": 0,
           "createdTime": [
-            "2020-05-25",
-            "10:54"
+            "2020-05-03",
+            "14:08"
           ],
-          "GPS": "37.47919412307878,126.7107125011288",
-          "vid": "85"
+          "GPS": "37.476466508761966,126.71263362418748",
+          "vid": "84"
         }
       ],
       "receivedData": {
